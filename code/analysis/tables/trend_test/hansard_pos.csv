@@ -1,0 +1,1801 @@
+language,dataset,parser,postags,len,metric,aggregation,OriMannKendall,PartialMannKendall
+en,pos,stanza,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,ndd,False,increasing,increasing
+en,pos,stanza,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,mdd,False,decreasing,decreasing
+en,pos,stanza,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,height,False,no trend,no trend
+en,pos,stanza,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,left_child_ratio,False,decreasing,decreasing
+en,pos,stanza,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,k_ary,False,no trend,no trend
+en,pos,stanza,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,num_leaves,False,no trend,no trend
+en,pos,stanza,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,n_num_crossing,False,no trend,no trend
+en,pos,stanza,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,degree_var,False,no trend,no trend
+en,pos,stanza,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,degree_mean,False,no trend,no trend
+en,pos,stanza,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,depth_var,False,no trend,no trend
+en,pos,stanza,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,depth_mean,False,no trend,no trend
+en,pos,stanza,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,topo_edit_distance,False,decreasing,no trend
+en,pos,stanza,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,ndd,False,increasing,increasing
+en,pos,stanza,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,mdd,False,decreasing,decreasing
+en,pos,stanza,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,height,False,decreasing,no trend
+en,pos,stanza,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,left_child_ratio,False,decreasing,decreasing
+en,pos,stanza,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,k_ary,False,increasing,no trend
+en,pos,stanza,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,num_leaves,False,no trend,no trend
+en,pos,stanza,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,n_num_crossing,False,no trend,no trend
+en,pos,stanza,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,degree_var,False,increasing,no trend
+en,pos,stanza,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,degree_mean,False,decreasing,no trend
+en,pos,stanza,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,depth_var,False,decreasing,no trend
+en,pos,stanza,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,depth_mean,False,decreasing,no trend
+en,pos,stanza,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,topo_edit_distance,False,decreasing,no trend
+en,pos,stanza,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,ndd,False,increasing,increasing
+en,pos,stanza,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,mdd,False,decreasing,decreasing
+en,pos,stanza,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,height,False,decreasing,no trend
+en,pos,stanza,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,left_child_ratio,False,no trend,no trend
+en,pos,stanza,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,k_ary,False,increasing,increasing
+en,pos,stanza,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,num_leaves,False,increasing,no trend
+en,pos,stanza,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,n_num_crossing,False,no trend,no trend
+en,pos,stanza,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,degree_var,False,increasing,increasing
+en,pos,stanza,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,degree_mean,False,no trend,no trend
+en,pos,stanza,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,depth_var,False,decreasing,decreasing
+en,pos,stanza,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,depth_mean,False,decreasing,decreasing
+en,pos,stanza,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,topo_edit_distance,False,no trend,no trend
+en,pos,stanza,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,ndd,False,decreasing,decreasing
+en,pos,stanza,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,mdd,False,decreasing,decreasing
+en,pos,stanza,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,height,False,no trend,no trend
+en,pos,stanza,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,left_child_ratio,False,decreasing,decreasing
+en,pos,stanza,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,k_ary,False,no trend,no trend
+en,pos,stanza,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,num_leaves,False,increasing,increasing
+en,pos,stanza,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,n_num_crossing,False,decreasing,no trend
+en,pos,stanza,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,degree_var,False,increasing,increasing
+en,pos,stanza,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,degree_mean,False,no trend,no trend
+en,pos,stanza,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,depth_var,False,increasing,increasing
+en,pos,stanza,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,depth_mean,False,no trend,no trend
+en,pos,stanza,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,topo_edit_distance,False,decreasing,no trend
+en,pos,stanza,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,ndd,False,increasing,increasing
+en,pos,stanza,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,mdd,False,increasing,increasing
+en,pos,stanza,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,height,False,decreasing,decreasing
+en,pos,stanza,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,left_child_ratio,False,increasing,increasing
+en,pos,stanza,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,k_ary,False,increasing,increasing
+en,pos,stanza,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,num_leaves,False,increasing,increasing
+en,pos,stanza,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,n_num_crossing,False,no trend,no trend
+en,pos,stanza,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,degree_var,False,increasing,increasing
+en,pos,stanza,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,degree_mean,False,no trend,no trend
+en,pos,stanza,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,depth_var,False,decreasing,decreasing
+en,pos,stanza,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,depth_mean,False,decreasing,decreasing
+en,pos,stanza,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,topo_edit_distance,False,no trend,no trend
+en,pos,stanza,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,ndd,False,increasing,no trend
+en,pos,stanza,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,mdd,False,decreasing,decreasing
+en,pos,stanza,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,height,False,no trend,no trend
+en,pos,stanza,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,left_child_ratio,False,decreasing,decreasing
+en,pos,stanza,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,k_ary,False,no trend,no trend
+en,pos,stanza,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,num_leaves,False,increasing,no trend
+en,pos,stanza,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,n_num_crossing,False,no trend,no trend
+en,pos,stanza,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,degree_var,False,no trend,no trend
+en,pos,stanza,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,degree_mean,False,no trend,no trend
+en,pos,stanza,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,depth_var,False,no trend,no trend
+en,pos,stanza,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,depth_mean,False,no trend,no trend
+en,pos,stanza,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,topo_edit_distance,False,decreasing,no trend
+en,pos,stanza,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.348484848484848,ndd,False,no trend,no trend
+en,pos,stanza,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.348484848484848,mdd,False,no trend,no trend
+en,pos,stanza,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.348484848484848,height,False,no trend,no trend
+en,pos,stanza,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.348484848484848,left_child_ratio,False,no trend,no trend
+en,pos,stanza,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.348484848484848,k_ary,False,no trend,no trend
+en,pos,stanza,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.348484848484848,num_leaves,False,no trend,no trend
+en,pos,stanza,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.348484848484848,n_num_crossing,False,no trend,no trend
+en,pos,stanza,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.348484848484848,degree_var,False,no trend,no trend
+en,pos,stanza,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.348484848484848,degree_mean,False,no trend,no trend
+en,pos,stanza,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.348484848484848,depth_var,False,no trend,no trend
+en,pos,stanza,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.348484848484848,depth_mean,False,no trend,no trend
+en,pos,stanza,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.348484848484848,topo_edit_distance,False,no trend,no trend
+en,pos,stanza,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,ndd,False,decreasing,decreasing
+en,pos,stanza,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,mdd,False,no trend,no trend
+en,pos,stanza,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,height,False,no trend,no trend
+en,pos,stanza,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,left_child_ratio,False,no trend,no trend
+en,pos,stanza,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,k_ary,False,no trend,no trend
+en,pos,stanza,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,num_leaves,False,no trend,no trend
+en,pos,stanza,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,n_num_crossing,False,no trend,no trend
+en,pos,stanza,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,degree_var,False,no trend,no trend
+en,pos,stanza,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,degree_mean,False,no trend,no trend
+en,pos,stanza,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,depth_var,False,no trend,no trend
+en,pos,stanza,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,depth_mean,False,no trend,no trend
+en,pos,stanza,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,topo_edit_distance,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,ndd,False,increasing,increasing
+en,pos,stanza,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,mdd,False,increasing,increasing
+en,pos,stanza,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,height,False,decreasing,decreasing
+en,pos,stanza,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,left_child_ratio,False,increasing,increasing
+en,pos,stanza,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,k_ary,False,increasing,increasing
+en,pos,stanza,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,num_leaves,False,increasing,increasing
+en,pos,stanza,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,n_num_crossing,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,degree_var,False,increasing,increasing
+en,pos,stanza,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,degree_mean,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,depth_var,False,decreasing,decreasing
+en,pos,stanza,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,depth_mean,False,decreasing,decreasing
+en,pos,stanza,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,topo_edit_distance,False,decreasing,decreasing
+en,pos,stanza,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,ndd,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,mdd,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,height,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,left_child_ratio,False,decreasing,decreasing
+en,pos,stanza,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,k_ary,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,num_leaves,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,n_num_crossing,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,degree_var,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,degree_mean,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,depth_var,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,depth_mean,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,topo_edit_distance,False,increasing,no trend
+en,pos,stanza,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.212121212121213,ndd,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.212121212121213,mdd,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.212121212121213,height,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.212121212121213,left_child_ratio,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.212121212121213,k_ary,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.212121212121213,num_leaves,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.212121212121213,n_num_crossing,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.212121212121213,degree_var,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.212121212121213,degree_mean,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.212121212121213,depth_var,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.212121212121213,depth_mean,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.212121212121213,topo_edit_distance,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,ndd,False,decreasing,decreasing
+en,pos,stanza,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,mdd,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,height,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,left_child_ratio,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,k_ary,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,num_leaves,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,n_num_crossing,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,degree_var,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,degree_mean,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,depth_var,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,depth_mean,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,topo_edit_distance,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,ndd,False,decreasing,decreasing
+en,pos,stanza,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,mdd,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,height,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,left_child_ratio,False,decreasing,decreasing
+en,pos,stanza,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,k_ary,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,num_leaves,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,n_num_crossing,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,degree_var,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,degree_mean,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,depth_var,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,depth_mean,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,topo_edit_distance,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,ndd,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,mdd,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,height,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,left_child_ratio,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,k_ary,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,num_leaves,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,n_num_crossing,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,degree_var,False,increasing,increasing
+en,pos,stanza,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,degree_mean,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,depth_var,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,depth_mean,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,topo_edit_distance,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,ndd,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,mdd,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,height,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,left_child_ratio,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,k_ary,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,num_leaves,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,n_num_crossing,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,degree_var,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,degree_mean,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,depth_var,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,depth_mean,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,topo_edit_distance,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,ndd,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,mdd,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,height,False,decreasing,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,left_child_ratio,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,k_ary,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,num_leaves,False,increasing,increasing
+en,pos,stanza,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,n_num_crossing,False,increasing,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,degree_var,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,degree_mean,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,depth_var,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,depth_mean,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,topo_edit_distance,False,decreasing,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.307971014492754,ndd,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.307971014492754,mdd,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.307971014492754,height,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.307971014492754,left_child_ratio,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.307971014492754,k_ary,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.307971014492754,num_leaves,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.307971014492754,n_num_crossing,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.307971014492754,degree_var,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.307971014492754,degree_mean,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.307971014492754,depth_var,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.307971014492754,depth_mean,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.307971014492754,topo_edit_distance,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,ndd,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,mdd,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,height,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,left_child_ratio,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,k_ary,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,num_leaves,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,n_num_crossing,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,degree_var,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,degree_mean,False,no trend,no trend
+en,pos,stanza,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,depth_var,False,no trend,increasing
+en,pos,stanza,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,depth_mean,False,no trend,increasing
+en,pos,stanza,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,topo_edit_distance,False,no trend,no trend
+en,pos,stanza,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,ndd,False,no trend,no trend
+en,pos,stanza,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,mdd,False,no trend,no trend
+en,pos,stanza,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,height,False,no trend,no trend
+en,pos,stanza,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,left_child_ratio,False,no trend,no trend
+en,pos,stanza,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,k_ary,False,no trend,no trend
+en,pos,stanza,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,num_leaves,False,no trend,no trend
+en,pos,stanza,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,n_num_crossing,False,no trend,no trend
+en,pos,stanza,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,degree_var,False,no trend,no trend
+en,pos,stanza,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,degree_mean,False,no trend,no trend
+en,pos,stanza,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,depth_var,False,no trend,no trend
+en,pos,stanza,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,depth_mean,False,no trend,no trend
+en,pos,stanza,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,topo_edit_distance,False,no trend,no trend
+en,pos,stanza,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,ndd,False,no trend,no trend
+en,pos,stanza,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,mdd,False,no trend,no trend
+en,pos,stanza,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,height,False,increasing,increasing
+en,pos,stanza,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,left_child_ratio,False,decreasing,decreasing
+en,pos,stanza,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,k_ary,False,no trend,no trend
+en,pos,stanza,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,num_leaves,False,no trend,no trend
+en,pos,stanza,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,n_num_crossing,False,no trend,no trend
+en,pos,stanza,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,degree_var,False,no trend,no trend
+en,pos,stanza,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,degree_mean,False,no trend,no trend
+en,pos,stanza,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,depth_var,False,increasing,increasing
+en,pos,stanza,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,depth_mean,False,increasing,increasing
+en,pos,stanza,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,topo_edit_distance,False,no trend,no trend
+en,pos,stanza,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,ndd,False,decreasing,decreasing
+en,pos,stanza,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,mdd,False,no trend,no trend
+en,pos,stanza,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,height,False,no trend,no trend
+en,pos,stanza,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,left_child_ratio,False,decreasing,decreasing
+en,pos,stanza,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,k_ary,False,no trend,no trend
+en,pos,stanza,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,num_leaves,False,no trend,no trend
+en,pos,stanza,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,n_num_crossing,False,no trend,no trend
+en,pos,stanza,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,degree_var,False,no trend,no trend
+en,pos,stanza,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,degree_mean,False,no trend,no trend
+en,pos,stanza,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,depth_var,False,no trend,no trend
+en,pos,stanza,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,depth_mean,False,no trend,no trend
+en,pos,stanza,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,topo_edit_distance,False,no trend,no trend
+en,pos,stanza,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,ndd,False,no trend,no trend
+en,pos,stanza,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,mdd,False,no trend,no trend
+en,pos,stanza,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,height,False,no trend,no trend
+en,pos,stanza,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,left_child_ratio,False,increasing,increasing
+en,pos,stanza,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,k_ary,False,no trend,no trend
+en,pos,stanza,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,num_leaves,False,no trend,no trend
+en,pos,stanza,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,n_num_crossing,False,no trend,no trend
+en,pos,stanza,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,degree_var,False,no trend,no trend
+en,pos,stanza,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,degree_mean,False,no trend,no trend
+en,pos,stanza,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,depth_var,False,decreasing,decreasing
+en,pos,stanza,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,depth_mean,False,decreasing,decreasing
+en,pos,stanza,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,topo_edit_distance,False,decreasing,decreasing
+en,pos,stanza,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,ndd,False,no trend,no trend
+en,pos,stanza,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,mdd,False,decreasing,decreasing
+en,pos,stanza,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,height,False,increasing,increasing
+en,pos,stanza,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,left_child_ratio,False,decreasing,decreasing
+en,pos,stanza,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,k_ary,False,no trend,no trend
+en,pos,stanza,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,num_leaves,False,no trend,no trend
+en,pos,stanza,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,n_num_crossing,False,no trend,no trend
+en,pos,stanza,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,degree_var,False,no trend,no trend
+en,pos,stanza,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,degree_mean,False,no trend,no trend
+en,pos,stanza,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,depth_var,False,increasing,increasing
+en,pos,stanza,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,depth_mean,False,no trend,no trend
+en,pos,stanza,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,topo_edit_distance,False,increasing,no trend
+en,pos,stanza,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.45138888888889,ndd,False,no trend,no trend
+en,pos,stanza,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.45138888888889,mdd,False,no trend,no trend
+en,pos,stanza,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.45138888888889,height,False,no trend,no trend
+en,pos,stanza,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.45138888888889,left_child_ratio,False,decreasing,decreasing
+en,pos,stanza,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.45138888888889,k_ary,False,no trend,no trend
+en,pos,stanza,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.45138888888889,num_leaves,False,no trend,no trend
+en,pos,stanza,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.45138888888889,n_num_crossing,False,no trend,no trend
+en,pos,stanza,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.45138888888889,degree_var,False,no trend,no trend
+en,pos,stanza,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.45138888888889,degree_mean,False,no trend,no trend
+en,pos,stanza,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.45138888888889,depth_var,False,no trend,no trend
+en,pos,stanza,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.45138888888889,depth_mean,False,no trend,no trend
+en,pos,stanza,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.45138888888889,topo_edit_distance,False,no trend,no trend
+en,pos,stanza,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,ndd,False,no trend,no trend
+en,pos,stanza,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,mdd,False,no trend,no trend
+en,pos,stanza,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,height,False,no trend,no trend
+en,pos,stanza,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,left_child_ratio,False,decreasing,no trend
+en,pos,stanza,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,k_ary,False,decreasing,decreasing
+en,pos,stanza,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,num_leaves,False,no trend,no trend
+en,pos,stanza,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,n_num_crossing,False,increasing,no trend
+en,pos,stanza,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,degree_var,False,decreasing,decreasing
+en,pos,stanza,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,degree_mean,False,no trend,no trend
+en,pos,stanza,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,depth_var,False,increasing,increasing
+en,pos,stanza,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,depth_mean,False,increasing,increasing
+en,pos,stanza,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,topo_edit_distance,False,increasing,increasing
+en,pos,stanza,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,ndd,False,no trend,no trend
+en,pos,stanza,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,mdd,False,no trend,no trend
+en,pos,stanza,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,height,False,no trend,no trend
+en,pos,stanza,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,left_child_ratio,False,no trend,no trend
+en,pos,stanza,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,k_ary,False,no trend,no trend
+en,pos,stanza,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,num_leaves,False,no trend,no trend
+en,pos,stanza,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,n_num_crossing,False,no trend,no trend
+en,pos,stanza,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,degree_var,False,no trend,no trend
+en,pos,stanza,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,degree_mean,False,no trend,no trend
+en,pos,stanza,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,depth_var,False,no trend,no trend
+en,pos,stanza,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,depth_mean,False,no trend,no trend
+en,pos,stanza,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,topo_edit_distance,False,no trend,no trend
+en,pos,stanza,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,ndd,False,increasing,increasing
+en,pos,stanza,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,mdd,False,no trend,no trend
+en,pos,stanza,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,height,False,no trend,no trend
+en,pos,stanza,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,left_child_ratio,False,no trend,no trend
+en,pos,stanza,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,k_ary,False,no trend,no trend
+en,pos,stanza,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,num_leaves,False,no trend,no trend
+en,pos,stanza,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,n_num_crossing,False,no trend,no trend
+en,pos,stanza,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,degree_var,False,no trend,no trend
+en,pos,stanza,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,degree_mean,False,no trend,no trend
+en,pos,stanza,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,depth_var,False,no trend,no trend
+en,pos,stanza,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,depth_mean,False,no trend,no trend
+en,pos,stanza,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,topo_edit_distance,False,no trend,no trend
+en,pos,stanza,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,ndd,False,no trend,no trend
+en,pos,stanza,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,mdd,False,no trend,no trend
+en,pos,stanza,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,height,False,no trend,no trend
+en,pos,stanza,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,left_child_ratio,False,no trend,no trend
+en,pos,stanza,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,k_ary,False,no trend,no trend
+en,pos,stanza,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,num_leaves,False,no trend,no trend
+en,pos,stanza,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,n_num_crossing,False,no trend,no trend
+en,pos,stanza,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,degree_var,False,no trend,no trend
+en,pos,stanza,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,degree_mean,False,no trend,no trend
+en,pos,stanza,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,depth_var,False,no trend,no trend
+en,pos,stanza,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,depth_mean,False,no trend,no trend
+en,pos,stanza,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,topo_edit_distance,False,no trend,no trend
+en,pos,stanza,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,ndd,False,no trend,no trend
+en,pos,stanza,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,mdd,False,no trend,no trend
+en,pos,stanza,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,height,False,no trend,no trend
+en,pos,stanza,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,left_child_ratio,False,no trend,no trend
+en,pos,stanza,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,k_ary,False,no trend,no trend
+en,pos,stanza,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,num_leaves,False,no trend,no trend
+en,pos,stanza,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,n_num_crossing,False,no trend,no trend
+en,pos,stanza,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,degree_var,False,no trend,no trend
+en,pos,stanza,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,degree_mean,False,no trend,no trend
+en,pos,stanza,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,depth_var,False,no trend,no trend
+en,pos,stanza,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,depth_mean,False,no trend,no trend
+en,pos,stanza,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,topo_edit_distance,False,no trend,no trend
+en,pos,stanza,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,ndd,False,no trend,no trend
+en,pos,stanza,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,mdd,False,no trend,no trend
+en,pos,stanza,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,height,False,no trend,no trend
+en,pos,stanza,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,left_child_ratio,False,no trend,no trend
+en,pos,stanza,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,k_ary,False,no trend,no trend
+en,pos,stanza,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,num_leaves,False,no trend,no trend
+en,pos,stanza,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,n_num_crossing,False,no trend,no trend
+en,pos,stanza,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,degree_var,False,no trend,no trend
+en,pos,stanza,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,degree_mean,False,no trend,no trend
+en,pos,stanza,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,depth_var,False,no trend,no trend
+en,pos,stanza,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,depth_mean,False,no trend,no trend
+en,pos,stanza,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,topo_edit_distance,False,no trend,no trend
+en,pos,biaffine,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,ndd,False,no trend,no trend
+en,pos,biaffine,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,mdd,False,decreasing,decreasing
+en,pos,biaffine,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,height,False,no trend,no trend
+en,pos,biaffine,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,left_child_ratio,False,decreasing,decreasing
+en,pos,biaffine,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,k_ary,False,no trend,no trend
+en,pos,biaffine,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,num_leaves,False,increasing,no trend
+en,pos,biaffine,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,n_num_crossing,False,no trend,no trend
+en,pos,biaffine,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,degree_var,False,no trend,no trend
+en,pos,biaffine,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,degree_mean,False,no trend,no trend
+en,pos,biaffine,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,depth_var,False,no trend,no trend
+en,pos,biaffine,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,depth_mean,False,no trend,no trend
+en,pos,biaffine,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,topo_edit_distance,False,decreasing,no trend
+en,pos,biaffine,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,ndd,False,increasing,increasing
+en,pos,biaffine,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,mdd,False,decreasing,decreasing
+en,pos,biaffine,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,height,False,decreasing,no trend
+en,pos,biaffine,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,left_child_ratio,False,decreasing,decreasing
+en,pos,biaffine,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,k_ary,False,increasing,no trend
+en,pos,biaffine,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,num_leaves,False,increasing,no trend
+en,pos,biaffine,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,n_num_crossing,False,no trend,no trend
+en,pos,biaffine,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,degree_var,False,increasing,no trend
+en,pos,biaffine,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,degree_mean,False,no trend,no trend
+en,pos,biaffine,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,depth_var,False,decreasing,no trend
+en,pos,biaffine,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,depth_mean,False,decreasing,no trend
+en,pos,biaffine,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,topo_edit_distance,False,decreasing,decreasing
+en,pos,biaffine,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,ndd,False,increasing,increasing
+en,pos,biaffine,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,mdd,False,decreasing,decreasing
+en,pos,biaffine,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,height,False,decreasing,no trend
+en,pos,biaffine,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,left_child_ratio,False,no trend,no trend
+en,pos,biaffine,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,k_ary,False,increasing,increasing
+en,pos,biaffine,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,num_leaves,False,increasing,no trend
+en,pos,biaffine,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,n_num_crossing,False,no trend,no trend
+en,pos,biaffine,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,degree_var,False,increasing,increasing
+en,pos,biaffine,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,degree_mean,False,no trend,no trend
+en,pos,biaffine,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,depth_var,False,decreasing,decreasing
+en,pos,biaffine,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,depth_mean,False,decreasing,decreasing
+en,pos,biaffine,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,topo_edit_distance,False,decreasing,no trend
+en,pos,biaffine,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,ndd,False,decreasing,decreasing
+en,pos,biaffine,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,mdd,False,decreasing,decreasing
+en,pos,biaffine,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,height,False,no trend,no trend
+en,pos,biaffine,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,left_child_ratio,False,decreasing,decreasing
+en,pos,biaffine,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,k_ary,False,increasing,no trend
+en,pos,biaffine,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,num_leaves,False,increasing,increasing
+en,pos,biaffine,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,n_num_crossing,False,decreasing,no trend
+en,pos,biaffine,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,degree_var,False,increasing,increasing
+en,pos,biaffine,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,degree_mean,False,no trend,no trend
+en,pos,biaffine,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,depth_var,False,increasing,increasing
+en,pos,biaffine,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,depth_mean,False,decreasing,no trend
+en,pos,biaffine,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,topo_edit_distance,False,decreasing,no trend
+en,pos,biaffine,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,ndd,False,increasing,increasing
+en,pos,biaffine,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,mdd,False,increasing,increasing
+en,pos,biaffine,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,height,False,decreasing,decreasing
+en,pos,biaffine,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,left_child_ratio,False,increasing,increasing
+en,pos,biaffine,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,k_ary,False,increasing,increasing
+en,pos,biaffine,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,num_leaves,False,increasing,increasing
+en,pos,biaffine,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,n_num_crossing,False,no trend,no trend
+en,pos,biaffine,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,degree_var,False,increasing,increasing
+en,pos,biaffine,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,degree_mean,False,no trend,no trend
+en,pos,biaffine,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,depth_var,False,decreasing,decreasing
+en,pos,biaffine,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,depth_mean,False,decreasing,decreasing
+en,pos,biaffine,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,topo_edit_distance,False,decreasing,no trend
+en,pos,biaffine,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,ndd,False,decreasing,no trend
+en,pos,biaffine,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,mdd,False,decreasing,decreasing
+en,pos,biaffine,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,height,False,no trend,no trend
+en,pos,biaffine,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,left_child_ratio,False,decreasing,no trend
+en,pos,biaffine,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,k_ary,False,no trend,no trend
+en,pos,biaffine,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,num_leaves,False,increasing,increasing
+en,pos,biaffine,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,n_num_crossing,False,no trend,no trend
+en,pos,biaffine,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,degree_var,False,no trend,no trend
+en,pos,biaffine,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,degree_mean,False,no trend,no trend
+en,pos,biaffine,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,depth_var,False,no trend,no trend
+en,pos,biaffine,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,depth_mean,False,no trend,no trend
+en,pos,biaffine,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,topo_edit_distance,False,decreasing,no trend
+en,pos,biaffine,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.348484848484848,ndd,False,no trend,no trend
+en,pos,biaffine,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.348484848484848,mdd,False,decreasing,decreasing
+en,pos,biaffine,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.348484848484848,height,False,no trend,no trend
+en,pos,biaffine,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.348484848484848,left_child_ratio,False,no trend,no trend
+en,pos,biaffine,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.348484848484848,k_ary,False,no trend,no trend
+en,pos,biaffine,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.348484848484848,num_leaves,False,no trend,no trend
+en,pos,biaffine,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.348484848484848,n_num_crossing,False,no trend,no trend
+en,pos,biaffine,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.348484848484848,degree_var,False,no trend,no trend
+en,pos,biaffine,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.348484848484848,degree_mean,False,no trend,no trend
+en,pos,biaffine,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.348484848484848,depth_var,False,no trend,no trend
+en,pos,biaffine,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.348484848484848,depth_mean,False,no trend,no trend
+en,pos,biaffine,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.348484848484848,topo_edit_distance,False,increasing,no trend
+en,pos,biaffine,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,ndd,False,decreasing,decreasing
+en,pos,biaffine,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,mdd,False,increasing,no trend
+en,pos,biaffine,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,height,False,no trend,no trend
+en,pos,biaffine,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,left_child_ratio,False,no trend,no trend
+en,pos,biaffine,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,k_ary,False,no trend,no trend
+en,pos,biaffine,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,num_leaves,False,no trend,no trend
+en,pos,biaffine,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,n_num_crossing,False,no trend,no trend
+en,pos,biaffine,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,degree_var,False,no trend,no trend
+en,pos,biaffine,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,degree_mean,False,no trend,no trend
+en,pos,biaffine,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,depth_var,False,no trend,no trend
+en,pos,biaffine,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,depth_mean,False,no trend,no trend
+en,pos,biaffine,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,topo_edit_distance,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,ndd,False,increasing,increasing
+en,pos,biaffine,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,mdd,False,increasing,increasing
+en,pos,biaffine,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,height,False,decreasing,decreasing
+en,pos,biaffine,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,left_child_ratio,False,increasing,increasing
+en,pos,biaffine,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,k_ary,False,increasing,increasing
+en,pos,biaffine,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,num_leaves,False,increasing,increasing
+en,pos,biaffine,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,n_num_crossing,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,degree_var,False,increasing,increasing
+en,pos,biaffine,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,degree_mean,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,depth_var,False,decreasing,decreasing
+en,pos,biaffine,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,depth_mean,False,decreasing,decreasing
+en,pos,biaffine,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,topo_edit_distance,False,decreasing,decreasing
+en,pos,biaffine,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,ndd,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,mdd,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,height,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,left_child_ratio,False,decreasing,decreasing
+en,pos,biaffine,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,k_ary,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,num_leaves,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,n_num_crossing,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,degree_var,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,degree_mean,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,depth_var,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,depth_mean,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,topo_edit_distance,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.212121212121213,ndd,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.212121212121213,mdd,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.212121212121213,height,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.212121212121213,left_child_ratio,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.212121212121213,k_ary,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.212121212121213,num_leaves,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.212121212121213,n_num_crossing,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.212121212121213,degree_var,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.212121212121213,degree_mean,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.212121212121213,depth_var,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.212121212121213,depth_mean,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.212121212121213,topo_edit_distance,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,ndd,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,mdd,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,height,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,left_child_ratio,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,k_ary,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,num_leaves,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,n_num_crossing,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,degree_var,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,degree_mean,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,depth_var,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,depth_mean,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,topo_edit_distance,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,ndd,False,decreasing,decreasing
+en,pos,biaffine,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,mdd,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,height,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,left_child_ratio,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,k_ary,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,num_leaves,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,n_num_crossing,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,degree_var,False,increasing,increasing
+en,pos,biaffine,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,degree_mean,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,depth_var,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,depth_mean,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,topo_edit_distance,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,ndd,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,mdd,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,height,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,left_child_ratio,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,k_ary,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,num_leaves,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,n_num_crossing,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,degree_var,False,increasing,increasing
+en,pos,biaffine,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,degree_mean,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,depth_var,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,depth_mean,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,topo_edit_distance,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,ndd,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,mdd,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,height,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,left_child_ratio,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,k_ary,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,num_leaves,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,n_num_crossing,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,degree_var,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,degree_mean,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,depth_var,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,depth_mean,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,topo_edit_distance,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,ndd,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,mdd,False,increasing,increasing
+en,pos,biaffine,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,height,False,decreasing,decreasing
+en,pos,biaffine,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,left_child_ratio,False,increasing,no trend
+en,pos,biaffine,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,k_ary,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,num_leaves,False,increasing,increasing
+en,pos,biaffine,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,n_num_crossing,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,degree_var,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,degree_mean,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,depth_var,False,decreasing,decreasing
+en,pos,biaffine,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,depth_mean,False,decreasing,decreasing
+en,pos,biaffine,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,topo_edit_distance,False,decreasing,decreasing
+en,pos,biaffine,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.307971014492754,ndd,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.307971014492754,mdd,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.307971014492754,height,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.307971014492754,left_child_ratio,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.307971014492754,k_ary,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.307971014492754,num_leaves,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.307971014492754,n_num_crossing,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.307971014492754,degree_var,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.307971014492754,degree_mean,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.307971014492754,depth_var,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.307971014492754,depth_mean,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.307971014492754,topo_edit_distance,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,ndd,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,mdd,False,increasing,increasing
+en,pos,biaffine,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,height,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,left_child_ratio,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,k_ary,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,num_leaves,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,n_num_crossing,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,degree_var,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,degree_mean,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,depth_var,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,depth_mean,False,no trend,no trend
+en,pos,biaffine,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,topo_edit_distance,False,no trend,no trend
+en,pos,biaffine,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,ndd,False,no trend,no trend
+en,pos,biaffine,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,mdd,False,no trend,no trend
+en,pos,biaffine,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,height,False,no trend,no trend
+en,pos,biaffine,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,left_child_ratio,False,no trend,no trend
+en,pos,biaffine,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,k_ary,False,no trend,no trend
+en,pos,biaffine,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,num_leaves,False,no trend,no trend
+en,pos,biaffine,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,n_num_crossing,False,increasing,no trend
+en,pos,biaffine,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,degree_var,False,no trend,no trend
+en,pos,biaffine,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,degree_mean,False,no trend,no trend
+en,pos,biaffine,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,depth_var,False,no trend,no trend
+en,pos,biaffine,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,depth_mean,False,no trend,no trend
+en,pos,biaffine,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,topo_edit_distance,False,no trend,no trend
+en,pos,biaffine,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,ndd,False,no trend,no trend
+en,pos,biaffine,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,mdd,False,no trend,no trend
+en,pos,biaffine,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,height,False,increasing,increasing
+en,pos,biaffine,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,left_child_ratio,False,decreasing,decreasing
+en,pos,biaffine,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,k_ary,False,no trend,no trend
+en,pos,biaffine,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,num_leaves,False,no trend,no trend
+en,pos,biaffine,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,n_num_crossing,False,no trend,no trend
+en,pos,biaffine,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,degree_var,False,no trend,no trend
+en,pos,biaffine,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,degree_mean,False,no trend,no trend
+en,pos,biaffine,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,depth_var,False,increasing,increasing
+en,pos,biaffine,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,depth_mean,False,increasing,increasing
+en,pos,biaffine,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,topo_edit_distance,False,no trend,no trend
+en,pos,biaffine,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,ndd,False,decreasing,decreasing
+en,pos,biaffine,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,mdd,False,no trend,no trend
+en,pos,biaffine,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,height,False,no trend,no trend
+en,pos,biaffine,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,left_child_ratio,False,no trend,no trend
+en,pos,biaffine,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,k_ary,False,no trend,no trend
+en,pos,biaffine,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,num_leaves,False,no trend,no trend
+en,pos,biaffine,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,n_num_crossing,False,no trend,no trend
+en,pos,biaffine,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,degree_var,False,no trend,no trend
+en,pos,biaffine,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,degree_mean,False,no trend,no trend
+en,pos,biaffine,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,depth_var,False,no trend,no trend
+en,pos,biaffine,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,depth_mean,False,no trend,no trend
+en,pos,biaffine,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,topo_edit_distance,False,no trend,no trend
+en,pos,biaffine,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,ndd,False,no trend,no trend
+en,pos,biaffine,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,mdd,False,no trend,no trend
+en,pos,biaffine,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,height,False,no trend,no trend
+en,pos,biaffine,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,left_child_ratio,False,increasing,increasing
+en,pos,biaffine,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,k_ary,False,increasing,increasing
+en,pos,biaffine,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,num_leaves,False,increasing,no trend
+en,pos,biaffine,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,n_num_crossing,False,no trend,no trend
+en,pos,biaffine,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,degree_var,False,increasing,increasing
+en,pos,biaffine,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,degree_mean,False,no trend,no trend
+en,pos,biaffine,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,depth_var,False,decreasing,decreasing
+en,pos,biaffine,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,depth_mean,False,decreasing,decreasing
+en,pos,biaffine,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,topo_edit_distance,False,decreasing,decreasing
+en,pos,biaffine,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,ndd,False,no trend,no trend
+en,pos,biaffine,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,mdd,False,decreasing,decreasing
+en,pos,biaffine,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,height,False,increasing,increasing
+en,pos,biaffine,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,left_child_ratio,False,decreasing,decreasing
+en,pos,biaffine,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,k_ary,False,no trend,no trend
+en,pos,biaffine,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,num_leaves,False,no trend,no trend
+en,pos,biaffine,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,n_num_crossing,False,no trend,no trend
+en,pos,biaffine,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,degree_var,False,no trend,no trend
+en,pos,biaffine,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,degree_mean,False,no trend,no trend
+en,pos,biaffine,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,depth_var,False,no trend,no trend
+en,pos,biaffine,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,depth_mean,False,no trend,no trend
+en,pos,biaffine,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,topo_edit_distance,False,no trend,no trend
+en,pos,biaffine,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.45138888888889,ndd,False,no trend,no trend
+en,pos,biaffine,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.45138888888889,mdd,False,no trend,no trend
+en,pos,biaffine,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.45138888888889,height,False,no trend,no trend
+en,pos,biaffine,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.45138888888889,left_child_ratio,False,no trend,no trend
+en,pos,biaffine,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.45138888888889,k_ary,False,increasing,increasing
+en,pos,biaffine,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.45138888888889,num_leaves,False,no trend,no trend
+en,pos,biaffine,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.45138888888889,n_num_crossing,False,no trend,no trend
+en,pos,biaffine,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.45138888888889,degree_var,False,no trend,no trend
+en,pos,biaffine,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.45138888888889,degree_mean,False,no trend,no trend
+en,pos,biaffine,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.45138888888889,depth_var,False,no trend,no trend
+en,pos,biaffine,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.45138888888889,depth_mean,False,no trend,no trend
+en,pos,biaffine,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.45138888888889,topo_edit_distance,False,no trend,no trend
+en,pos,biaffine,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,ndd,False,decreasing,decreasing
+en,pos,biaffine,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,mdd,False,no trend,no trend
+en,pos,biaffine,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,height,False,no trend,no trend
+en,pos,biaffine,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,left_child_ratio,False,decreasing,no trend
+en,pos,biaffine,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,k_ary,False,decreasing,decreasing
+en,pos,biaffine,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,num_leaves,False,no trend,no trend
+en,pos,biaffine,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,n_num_crossing,False,no trend,no trend
+en,pos,biaffine,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,degree_var,False,decreasing,decreasing
+en,pos,biaffine,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,degree_mean,False,no trend,no trend
+en,pos,biaffine,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,depth_var,False,no trend,no trend
+en,pos,biaffine,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,depth_mean,False,no trend,no trend
+en,pos,biaffine,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,topo_edit_distance,False,no trend,no trend
+en,pos,biaffine,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,ndd,False,no trend,no trend
+en,pos,biaffine,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,mdd,False,no trend,no trend
+en,pos,biaffine,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,height,False,no trend,no trend
+en,pos,biaffine,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,left_child_ratio,False,no trend,no trend
+en,pos,biaffine,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,k_ary,False,no trend,no trend
+en,pos,biaffine,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,num_leaves,False,no trend,no trend
+en,pos,biaffine,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,n_num_crossing,False,no trend,no trend
+en,pos,biaffine,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,degree_var,False,no trend,no trend
+en,pos,biaffine,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,degree_mean,False,no trend,no trend
+en,pos,biaffine,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,depth_var,False,no trend,no trend
+en,pos,biaffine,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,depth_mean,False,no trend,no trend
+en,pos,biaffine,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,topo_edit_distance,False,no trend,no trend
+en,pos,biaffine,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,ndd,False,increasing,increasing
+en,pos,biaffine,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,mdd,False,no trend,no trend
+en,pos,biaffine,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,height,False,no trend,no trend
+en,pos,biaffine,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,left_child_ratio,False,no trend,no trend
+en,pos,biaffine,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,k_ary,False,increasing,no trend
+en,pos,biaffine,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,num_leaves,False,no trend,no trend
+en,pos,biaffine,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,n_num_crossing,False,no trend,no trend
+en,pos,biaffine,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,degree_var,False,no trend,no trend
+en,pos,biaffine,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,degree_mean,False,no trend,no trend
+en,pos,biaffine,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,depth_var,False,no trend,no trend
+en,pos,biaffine,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,depth_mean,False,no trend,no trend
+en,pos,biaffine,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,topo_edit_distance,False,no trend,no trend
+en,pos,biaffine,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,ndd,False,no trend,no trend
+en,pos,biaffine,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,mdd,False,no trend,no trend
+en,pos,biaffine,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,height,False,no trend,no trend
+en,pos,biaffine,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,left_child_ratio,False,no trend,no trend
+en,pos,biaffine,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,k_ary,False,no trend,no trend
+en,pos,biaffine,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,num_leaves,False,no trend,no trend
+en,pos,biaffine,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,n_num_crossing,False,no trend,no trend
+en,pos,biaffine,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,degree_var,False,no trend,no trend
+en,pos,biaffine,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,degree_mean,False,no trend,no trend
+en,pos,biaffine,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,depth_var,False,no trend,no trend
+en,pos,biaffine,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,depth_mean,False,no trend,no trend
+en,pos,biaffine,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,topo_edit_distance,False,no trend,no trend
+en,pos,biaffine,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,ndd,False,no trend,no trend
+en,pos,biaffine,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,mdd,False,no trend,no trend
+en,pos,biaffine,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,height,False,no trend,no trend
+en,pos,biaffine,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,left_child_ratio,False,no trend,no trend
+en,pos,biaffine,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,k_ary,False,decreasing,decreasing
+en,pos,biaffine,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,num_leaves,False,no trend,no trend
+en,pos,biaffine,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,n_num_crossing,False,no trend,no trend
+en,pos,biaffine,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,degree_var,False,no trend,no trend
+en,pos,biaffine,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,degree_mean,False,no trend,no trend
+en,pos,biaffine,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,depth_var,False,no trend,no trend
+en,pos,biaffine,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,depth_mean,False,increasing,no trend
+en,pos,biaffine,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,topo_edit_distance,False,no trend,no trend
+en,pos,biaffine,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,ndd,False,no trend,no trend
+en,pos,biaffine,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,mdd,False,no trend,no trend
+en,pos,biaffine,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,height,False,no trend,no trend
+en,pos,biaffine,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,left_child_ratio,False,no trend,no trend
+en,pos,biaffine,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,k_ary,False,no trend,no trend
+en,pos,biaffine,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,num_leaves,False,no trend,no trend
+en,pos,biaffine,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,n_num_crossing,False,no trend,no trend
+en,pos,biaffine,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,degree_var,False,no trend,no trend
+en,pos,biaffine,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,degree_mean,False,no trend,no trend
+en,pos,biaffine,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,depth_var,False,no trend,no trend
+en,pos,biaffine,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,depth_mean,False,no trend,no trend
+en,pos,biaffine,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,topo_edit_distance,False,no trend,no trend
+en,pos,corenlp,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,ndd,False,decreasing,decreasing
+en,pos,corenlp,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,mdd,False,increasing,increasing
+en,pos,corenlp,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,height,False,no trend,no trend
+en,pos,corenlp,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,left_child_ratio,False,no trend,no trend
+en,pos,corenlp,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,k_ary,False,no trend,no trend
+en,pos,corenlp,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,num_leaves,False,no trend,no trend
+en,pos,corenlp,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,n_num_crossing,False,no trend,no trend
+en,pos,corenlp,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,degree_var,False,no trend,no trend
+en,pos,corenlp,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,degree_mean,False,no trend,no trend
+en,pos,corenlp,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,depth_var,False,no trend,no trend
+en,pos,corenlp,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,depth_mean,False,no trend,no trend
+en,pos,corenlp,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,topo_edit_distance,False,no trend,no trend
+en,pos,corenlp,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,ndd,False,no trend,no trend
+en,pos,corenlp,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,mdd,False,no trend,no trend
+en,pos,corenlp,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,height,False,no trend,no trend
+en,pos,corenlp,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,left_child_ratio,False,decreasing,decreasing
+en,pos,corenlp,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,k_ary,False,no trend,no trend
+en,pos,corenlp,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,num_leaves,False,no trend,no trend
+en,pos,corenlp,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,n_num_crossing,False,no trend,no trend
+en,pos,corenlp,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,degree_var,False,no trend,no trend
+en,pos,corenlp,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,degree_mean,False,no trend,no trend
+en,pos,corenlp,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,depth_var,False,no trend,no trend
+en,pos,corenlp,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,depth_mean,False,no trend,no trend
+en,pos,corenlp,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,topo_edit_distance,False,increasing,increasing
+en,pos,corenlp,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,ndd,False,decreasing,decreasing
+en,pos,corenlp,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,mdd,False,increasing,increasing
+en,pos,corenlp,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,height,False,no trend,no trend
+en,pos,corenlp,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,left_child_ratio,False,no trend,no trend
+en,pos,corenlp,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,k_ary,False,increasing,no trend
+en,pos,corenlp,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,num_leaves,False,no trend,no trend
+en,pos,corenlp,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,n_num_crossing,False,no trend,no trend
+en,pos,corenlp,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,degree_var,False,no trend,no trend
+en,pos,corenlp,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,degree_mean,False,no trend,no trend
+en,pos,corenlp,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,depth_var,False,decreasing,no trend
+en,pos,corenlp,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,depth_mean,False,decreasing,no trend
+en,pos,corenlp,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,topo_edit_distance,False,no trend,no trend
+en,pos,corenlp,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,ndd,False,decreasing,decreasing
+en,pos,corenlp,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,mdd,False,increasing,increasing
+en,pos,corenlp,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,height,False,no trend,no trend
+en,pos,corenlp,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,left_child_ratio,False,decreasing,decreasing
+en,pos,corenlp,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,k_ary,False,no trend,no trend
+en,pos,corenlp,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,num_leaves,False,increasing,no trend
+en,pos,corenlp,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,n_num_crossing,False,no trend,no trend
+en,pos,corenlp,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,degree_var,False,no trend,no trend
+en,pos,corenlp,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,degree_mean,False,no trend,no trend
+en,pos,corenlp,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,depth_var,False,increasing,increasing
+en,pos,corenlp,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,depth_mean,False,no trend,no trend
+en,pos,corenlp,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,topo_edit_distance,False,no trend,no trend
+en,pos,corenlp,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,ndd,False,no trend,no trend
+en,pos,corenlp,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,mdd,False,increasing,increasing
+en,pos,corenlp,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,height,False,decreasing,decreasing
+en,pos,corenlp,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,left_child_ratio,False,increasing,increasing
+en,pos,corenlp,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,k_ary,False,increasing,increasing
+en,pos,corenlp,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,num_leaves,False,increasing,increasing
+en,pos,corenlp,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,n_num_crossing,False,no trend,no trend
+en,pos,corenlp,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,degree_var,False,increasing,increasing
+en,pos,corenlp,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,degree_mean,False,no trend,no trend
+en,pos,corenlp,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,depth_var,False,decreasing,decreasing
+en,pos,corenlp,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,depth_mean,False,decreasing,decreasing
+en,pos,corenlp,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,topo_edit_distance,False,decreasing,decreasing
+en,pos,corenlp,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,ndd,False,decreasing,decreasing
+en,pos,corenlp,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,mdd,False,increasing,increasing
+en,pos,corenlp,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,height,False,no trend,no trend
+en,pos,corenlp,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,left_child_ratio,False,no trend,no trend
+en,pos,corenlp,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,k_ary,False,no trend,no trend
+en,pos,corenlp,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,num_leaves,False,increasing,no trend
+en,pos,corenlp,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,n_num_crossing,False,no trend,no trend
+en,pos,corenlp,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,degree_var,False,increasing,no trend
+en,pos,corenlp,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,degree_mean,False,no trend,no trend
+en,pos,corenlp,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,depth_var,False,no trend,no trend
+en,pos,corenlp,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,depth_mean,False,no trend,no trend
+en,pos,corenlp,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,topo_edit_distance,False,no trend,no trend
+en,pos,corenlp,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.351145038167939,ndd,False,no trend,no trend
+en,pos,corenlp,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.351145038167939,mdd,False,no trend,no trend
+en,pos,corenlp,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.351145038167939,height,False,no trend,no trend
+en,pos,corenlp,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.351145038167939,left_child_ratio,False,no trend,no trend
+en,pos,corenlp,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.351145038167939,k_ary,False,no trend,no trend
+en,pos,corenlp,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.351145038167939,num_leaves,False,increasing,no trend
+en,pos,corenlp,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.351145038167939,n_num_crossing,False,no trend,no trend
+en,pos,corenlp,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.351145038167939,degree_var,False,no trend,no trend
+en,pos,corenlp,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.351145038167939,degree_mean,False,no trend,no trend
+en,pos,corenlp,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.351145038167939,depth_var,False,no trend,no trend
+en,pos,corenlp,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.351145038167939,depth_mean,False,no trend,no trend
+en,pos,corenlp,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.351145038167939,topo_edit_distance,False,no trend,no trend
+en,pos,corenlp,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,ndd,False,decreasing,decreasing
+en,pos,corenlp,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,mdd,False,increasing,increasing
+en,pos,corenlp,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,height,False,no trend,no trend
+en,pos,corenlp,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,left_child_ratio,False,decreasing,decreasing
+en,pos,corenlp,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,k_ary,False,no trend,no trend
+en,pos,corenlp,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,num_leaves,False,no trend,no trend
+en,pos,corenlp,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,n_num_crossing,False,no trend,no trend
+en,pos,corenlp,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,degree_var,False,no trend,no trend
+en,pos,corenlp,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,degree_mean,False,no trend,no trend
+en,pos,corenlp,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,depth_var,False,no trend,no trend
+en,pos,corenlp,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,depth_mean,False,no trend,no trend
+en,pos,corenlp,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,topo_edit_distance,False,increasing,increasing
+en,pos,corenlp,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,ndd,False,increasing,increasing
+en,pos,corenlp,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,mdd,False,increasing,increasing
+en,pos,corenlp,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,height,False,decreasing,decreasing
+en,pos,corenlp,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,left_child_ratio,False,increasing,increasing
+en,pos,corenlp,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,k_ary,False,increasing,increasing
+en,pos,corenlp,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,num_leaves,False,increasing,increasing
+en,pos,corenlp,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,n_num_crossing,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,degree_var,False,increasing,increasing
+en,pos,corenlp,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,degree_mean,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,depth_var,False,decreasing,decreasing
+en,pos,corenlp,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,depth_mean,False,decreasing,decreasing
+en,pos,corenlp,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,topo_edit_distance,False,decreasing,decreasing
+en,pos,corenlp,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,ndd,False,decreasing,decreasing
+en,pos,corenlp,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,mdd,False,increasing,no trend
+en,pos,corenlp,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,height,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,left_child_ratio,False,decreasing,decreasing
+en,pos,corenlp,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,k_ary,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,num_leaves,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,n_num_crossing,False,decreasing,no trend
+en,pos,corenlp,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,degree_var,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,degree_mean,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,depth_var,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,depth_mean,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,topo_edit_distance,False,increasing,no trend
+en,pos,corenlp,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.213740458015268,ndd,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.213740458015268,mdd,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.213740458015268,height,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.213740458015268,left_child_ratio,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.213740458015268,k_ary,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.213740458015268,num_leaves,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.213740458015268,n_num_crossing,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.213740458015268,degree_var,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.213740458015268,degree_mean,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.213740458015268,depth_var,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.213740458015268,depth_mean,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.213740458015268,topo_edit_distance,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,ndd,False,decreasing,decreasing
+en,pos,corenlp,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,mdd,False,increasing,increasing
+en,pos,corenlp,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,height,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,left_child_ratio,False,decreasing,decreasing
+en,pos,corenlp,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,k_ary,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,num_leaves,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,n_num_crossing,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,degree_var,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,degree_mean,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,depth_var,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,depth_mean,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,topo_edit_distance,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,ndd,False,decreasing,decreasing
+en,pos,corenlp,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,mdd,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,height,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,left_child_ratio,False,decreasing,decreasing
+en,pos,corenlp,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,k_ary,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,num_leaves,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,n_num_crossing,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,degree_var,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,degree_mean,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,depth_var,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,depth_mean,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,topo_edit_distance,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,ndd,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,mdd,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,height,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,left_child_ratio,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,k_ary,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,num_leaves,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,n_num_crossing,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,degree_var,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,degree_mean,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,depth_var,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,depth_mean,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,topo_edit_distance,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,ndd,False,decreasing,decreasing
+en,pos,corenlp,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,mdd,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,height,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,left_child_ratio,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,k_ary,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,num_leaves,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,n_num_crossing,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,degree_var,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,degree_mean,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,depth_var,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,depth_mean,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,topo_edit_distance,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,ndd,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,mdd,False,increasing,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,height,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,left_child_ratio,False,increasing,increasing
+en,pos,corenlp,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,k_ary,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,num_leaves,False,increasing,increasing
+en,pos,corenlp,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,n_num_crossing,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,degree_var,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,degree_mean,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,depth_var,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,depth_mean,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,topo_edit_distance,False,decreasing,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.309090909090909,ndd,False,decreasing,decreasing
+en,pos,corenlp,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.309090909090909,mdd,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.309090909090909,height,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.309090909090909,left_child_ratio,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.309090909090909,k_ary,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.309090909090909,num_leaves,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.309090909090909,n_num_crossing,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.309090909090909,degree_var,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.309090909090909,degree_mean,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.309090909090909,depth_var,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.309090909090909,depth_mean,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.309090909090909,topo_edit_distance,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,ndd,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,mdd,False,no trend,increasing
+en,pos,corenlp,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,height,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,left_child_ratio,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,k_ary,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,num_leaves,False,increasing,increasing
+en,pos,corenlp,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,n_num_crossing,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,degree_var,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,degree_mean,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,depth_var,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,depth_mean,False,no trend,no trend
+en,pos,corenlp,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,topo_edit_distance,False,no trend,no trend
+en,pos,corenlp,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,ndd,False,no trend,no trend
+en,pos,corenlp,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,mdd,False,no trend,no trend
+en,pos,corenlp,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,height,False,no trend,no trend
+en,pos,corenlp,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,left_child_ratio,False,no trend,no trend
+en,pos,corenlp,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,k_ary,False,no trend,no trend
+en,pos,corenlp,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,num_leaves,False,no trend,no trend
+en,pos,corenlp,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,n_num_crossing,False,no trend,no trend
+en,pos,corenlp,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,degree_var,False,no trend,no trend
+en,pos,corenlp,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,degree_mean,False,no trend,no trend
+en,pos,corenlp,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,depth_var,False,no trend,no trend
+en,pos,corenlp,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,depth_mean,False,no trend,no trend
+en,pos,corenlp,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,topo_edit_distance,False,no trend,no trend
+en,pos,corenlp,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,ndd,False,decreasing,decreasing
+en,pos,corenlp,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,mdd,False,no trend,no trend
+en,pos,corenlp,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,height,False,increasing,increasing
+en,pos,corenlp,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,left_child_ratio,False,decreasing,decreasing
+en,pos,corenlp,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,k_ary,False,no trend,no trend
+en,pos,corenlp,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,num_leaves,False,no trend,no trend
+en,pos,corenlp,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,n_num_crossing,False,no trend,no trend
+en,pos,corenlp,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,degree_var,False,no trend,no trend
+en,pos,corenlp,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,degree_mean,False,no trend,no trend
+en,pos,corenlp,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,depth_var,False,increasing,increasing
+en,pos,corenlp,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,depth_mean,False,increasing,increasing
+en,pos,corenlp,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,topo_edit_distance,False,no trend,no trend
+en,pos,corenlp,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,ndd,False,decreasing,decreasing
+en,pos,corenlp,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,mdd,False,increasing,increasing
+en,pos,corenlp,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,height,False,no trend,no trend
+en,pos,corenlp,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,left_child_ratio,False,decreasing,decreasing
+en,pos,corenlp,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,k_ary,False,no trend,no trend
+en,pos,corenlp,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,num_leaves,False,no trend,no trend
+en,pos,corenlp,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,n_num_crossing,False,no trend,no trend
+en,pos,corenlp,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,degree_var,False,no trend,no trend
+en,pos,corenlp,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,degree_mean,False,no trend,no trend
+en,pos,corenlp,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,depth_var,False,no trend,no trend
+en,pos,corenlp,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,depth_mean,False,no trend,no trend
+en,pos,corenlp,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,topo_edit_distance,False,no trend,no trend
+en,pos,corenlp,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,ndd,False,no trend,no trend
+en,pos,corenlp,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,mdd,False,no trend,no trend
+en,pos,corenlp,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,height,False,no trend,no trend
+en,pos,corenlp,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,left_child_ratio,False,no trend,no trend
+en,pos,corenlp,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,k_ary,False,no trend,no trend
+en,pos,corenlp,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,num_leaves,False,no trend,no trend
+en,pos,corenlp,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,n_num_crossing,False,no trend,no trend
+en,pos,corenlp,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,degree_var,False,no trend,no trend
+en,pos,corenlp,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,degree_mean,False,no trend,no trend
+en,pos,corenlp,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,depth_var,False,no trend,no trend
+en,pos,corenlp,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,depth_mean,False,no trend,no trend
+en,pos,corenlp,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,topo_edit_distance,False,no trend,no trend
+en,pos,corenlp,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,ndd,False,no trend,no trend
+en,pos,corenlp,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,mdd,False,no trend,no trend
+en,pos,corenlp,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,height,False,no trend,no trend
+en,pos,corenlp,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,left_child_ratio,False,decreasing,decreasing
+en,pos,corenlp,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,k_ary,False,no trend,no trend
+en,pos,corenlp,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,num_leaves,False,no trend,no trend
+en,pos,corenlp,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,n_num_crossing,False,no trend,no trend
+en,pos,corenlp,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,degree_var,False,no trend,no trend
+en,pos,corenlp,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,degree_mean,False,no trend,no trend
+en,pos,corenlp,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,depth_var,False,no trend,no trend
+en,pos,corenlp,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,depth_mean,False,no trend,no trend
+en,pos,corenlp,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,topo_edit_distance,False,increasing,no trend
+en,pos,corenlp,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.454545454545455,ndd,False,no trend,no trend
+en,pos,corenlp,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.454545454545455,mdd,False,no trend,no trend
+en,pos,corenlp,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.454545454545455,height,False,no trend,no trend
+en,pos,corenlp,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.454545454545455,left_child_ratio,False,no trend,decreasing
+en,pos,corenlp,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.454545454545455,k_ary,False,no trend,no trend
+en,pos,corenlp,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.454545454545455,num_leaves,False,no trend,no trend
+en,pos,corenlp,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.454545454545455,n_num_crossing,False,no trend,no trend
+en,pos,corenlp,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.454545454545455,degree_var,False,no trend,no trend
+en,pos,corenlp,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.454545454545455,degree_mean,False,no trend,no trend
+en,pos,corenlp,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.454545454545455,depth_var,False,no trend,no trend
+en,pos,corenlp,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.454545454545455,depth_mean,False,no trend,no trend
+en,pos,corenlp,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.454545454545455,topo_edit_distance,False,no trend,no trend
+en,pos,corenlp,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,ndd,False,decreasing,decreasing
+en,pos,corenlp,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,mdd,False,no trend,no trend
+en,pos,corenlp,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,height,False,increasing,increasing
+en,pos,corenlp,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,left_child_ratio,False,decreasing,decreasing
+en,pos,corenlp,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,k_ary,False,decreasing,decreasing
+en,pos,corenlp,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,num_leaves,False,no trend,no trend
+en,pos,corenlp,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,n_num_crossing,False,no trend,no trend
+en,pos,corenlp,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,degree_var,False,decreasing,decreasing
+en,pos,corenlp,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,degree_mean,False,no trend,no trend
+en,pos,corenlp,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,depth_var,False,increasing,increasing
+en,pos,corenlp,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,depth_mean,False,increasing,increasing
+en,pos,corenlp,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,topo_edit_distance,False,increasing,no trend
+en,pos,corenlp,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,ndd,False,no trend,no trend
+en,pos,corenlp,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,mdd,False,no trend,no trend
+en,pos,corenlp,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,height,False,no trend,no trend
+en,pos,corenlp,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,left_child_ratio,False,no trend,no trend
+en,pos,corenlp,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,k_ary,False,no trend,no trend
+en,pos,corenlp,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,num_leaves,False,no trend,no trend
+en,pos,corenlp,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,n_num_crossing,False,no trend,no trend
+en,pos,corenlp,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,degree_var,False,no trend,no trend
+en,pos,corenlp,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,degree_mean,False,no trend,no trend
+en,pos,corenlp,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,depth_var,False,no trend,no trend
+en,pos,corenlp,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,depth_mean,False,no trend,no trend
+en,pos,corenlp,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,topo_edit_distance,False,no trend,no trend
+en,pos,corenlp,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,ndd,False,no trend,no trend
+en,pos,corenlp,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,mdd,False,no trend,no trend
+en,pos,corenlp,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,height,False,no trend,no trend
+en,pos,corenlp,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,left_child_ratio,False,no trend,no trend
+en,pos,corenlp,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,k_ary,False,no trend,no trend
+en,pos,corenlp,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,num_leaves,False,no trend,no trend
+en,pos,corenlp,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,n_num_crossing,False,no trend,no trend
+en,pos,corenlp,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,degree_var,False,no trend,no trend
+en,pos,corenlp,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,degree_mean,False,no trend,no trend
+en,pos,corenlp,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,depth_var,False,no trend,no trend
+en,pos,corenlp,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,depth_mean,False,no trend,no trend
+en,pos,corenlp,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,topo_edit_distance,False,no trend,no trend
+en,pos,corenlp,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,ndd,False,no trend,decreasing
+en,pos,corenlp,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,mdd,False,no trend,no trend
+en,pos,corenlp,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,height,False,no trend,no trend
+en,pos,corenlp,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,left_child_ratio,False,no trend,no trend
+en,pos,corenlp,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,k_ary,False,no trend,no trend
+en,pos,corenlp,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,num_leaves,False,no trend,no trend
+en,pos,corenlp,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,n_num_crossing,False,no trend,no trend
+en,pos,corenlp,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,degree_var,False,no trend,no trend
+en,pos,corenlp,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,degree_mean,False,no trend,no trend
+en,pos,corenlp,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,depth_var,False,no trend,no trend
+en,pos,corenlp,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,depth_mean,False,no trend,no trend
+en,pos,corenlp,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,topo_edit_distance,False,no trend,no trend
+en,pos,corenlp,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,ndd,False,no trend,no trend
+en,pos,corenlp,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,mdd,False,no trend,no trend
+en,pos,corenlp,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,height,False,no trend,no trend
+en,pos,corenlp,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,left_child_ratio,False,no trend,no trend
+en,pos,corenlp,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,k_ary,False,no trend,no trend
+en,pos,corenlp,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,num_leaves,False,no trend,no trend
+en,pos,corenlp,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,n_num_crossing,False,no trend,no trend
+en,pos,corenlp,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,degree_var,False,no trend,no trend
+en,pos,corenlp,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,degree_mean,False,no trend,no trend
+en,pos,corenlp,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,depth_var,False,no trend,no trend
+en,pos,corenlp,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,depth_mean,False,no trend,no trend
+en,pos,corenlp,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,topo_edit_distance,False,no trend,no trend
+en,pos,corenlp,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,ndd,False,no trend,no trend
+en,pos,corenlp,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,mdd,False,no trend,no trend
+en,pos,corenlp,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,height,False,no trend,no trend
+en,pos,corenlp,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,left_child_ratio,False,no trend,no trend
+en,pos,corenlp,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,k_ary,False,no trend,no trend
+en,pos,corenlp,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,num_leaves,False,no trend,no trend
+en,pos,corenlp,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,n_num_crossing,False,no trend,no trend
+en,pos,corenlp,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,degree_var,False,no trend,no trend
+en,pos,corenlp,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,degree_mean,False,no trend,no trend
+en,pos,corenlp,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,depth_var,False,no trend,no trend
+en,pos,corenlp,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,depth_mean,False,no trend,no trend
+en,pos,corenlp,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,topo_edit_distance,False,no trend,no trend
+en,pos,stackpointer,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,ndd,False,no trend,no trend
+en,pos,stackpointer,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,mdd,False,decreasing,no trend
+en,pos,stackpointer,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,height,False,no trend,no trend
+en,pos,stackpointer,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,left_child_ratio,False,no trend,no trend
+en,pos,stackpointer,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,k_ary,False,no trend,no trend
+en,pos,stackpointer,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,num_leaves,False,no trend,no trend
+en,pos,stackpointer,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,n_num_crossing,False,no trend,no trend
+en,pos,stackpointer,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,degree_var,False,no trend,no trend
+en,pos,stackpointer,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,degree_mean,False,no trend,no trend
+en,pos,stackpointer,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,depth_var,False,no trend,no trend
+en,pos,stackpointer,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,depth_mean,False,no trend,no trend
+en,pos,stackpointer,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.105371900826446,topo_edit_distance,False,decreasing,no trend
+en,pos,stackpointer,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,ndd,False,increasing,increasing
+en,pos,stackpointer,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,mdd,False,decreasing,decreasing
+en,pos,stackpointer,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,height,False,decreasing,no trend
+en,pos,stackpointer,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,left_child_ratio,False,decreasing,decreasing
+en,pos,stackpointer,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,k_ary,False,increasing,no trend
+en,pos,stackpointer,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,num_leaves,False,increasing,no trend
+en,pos,stackpointer,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,n_num_crossing,False,no trend,no trend
+en,pos,stackpointer,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,degree_var,False,increasing,no trend
+en,pos,stackpointer,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,degree_mean,False,no trend,no trend
+en,pos,stackpointer,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,depth_var,False,decreasing,no trend
+en,pos,stackpointer,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,depth_mean,False,decreasing,no trend
+en,pos,stackpointer,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.004901960784314,topo_edit_distance,False,decreasing,no trend
+en,pos,stackpointer,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,ndd,False,increasing,no trend
+en,pos,stackpointer,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,mdd,False,decreasing,decreasing
+en,pos,stackpointer,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,height,False,decreasing,no trend
+en,pos,stackpointer,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,left_child_ratio,False,no trend,no trend
+en,pos,stackpointer,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,k_ary,False,increasing,no trend
+en,pos,stackpointer,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,num_leaves,False,increasing,no trend
+en,pos,stackpointer,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,n_num_crossing,False,no trend,no trend
+en,pos,stackpointer,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,degree_var,False,increasing,no trend
+en,pos,stackpointer,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,degree_mean,False,no trend,no trend
+en,pos,stackpointer,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,depth_var,False,decreasing,no trend
+en,pos,stackpointer,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,depth_mean,False,decreasing,no trend
+en,pos,stackpointer,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.011517615176151,topo_edit_distance,False,no trend,no trend
+en,pos,stackpointer,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,ndd,False,decreasing,decreasing
+en,pos,stackpointer,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,mdd,False,decreasing,decreasing
+en,pos,stackpointer,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,height,False,no trend,no trend
+en,pos,stackpointer,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,left_child_ratio,False,decreasing,decreasing
+en,pos,stackpointer,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,k_ary,False,no trend,no trend
+en,pos,stackpointer,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,num_leaves,False,increasing,no trend
+en,pos,stackpointer,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,n_num_crossing,False,decreasing,no trend
+en,pos,stackpointer,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,degree_var,False,increasing,no trend
+en,pos,stackpointer,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,degree_mean,False,no trend,no trend
+en,pos,stackpointer,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,depth_var,False,increasing,increasing
+en,pos,stackpointer,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,depth_mean,False,no trend,no trend
+en,pos,stackpointer,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022140221402214,topo_edit_distance,False,decreasing,no trend
+en,pos,stackpointer,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,ndd,False,increasing,increasing
+en,pos,stackpointer,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,mdd,False,increasing,increasing
+en,pos,stackpointer,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,height,False,decreasing,decreasing
+en,pos,stackpointer,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,left_child_ratio,False,increasing,increasing
+en,pos,stackpointer,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,k_ary,False,increasing,increasing
+en,pos,stackpointer,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,num_leaves,False,increasing,increasing
+en,pos,stackpointer,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,n_num_crossing,False,no trend,no trend
+en,pos,stackpointer,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,degree_var,False,increasing,increasing
+en,pos,stackpointer,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,degree_mean,False,no trend,no trend
+en,pos,stackpointer,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,depth_var,False,decreasing,decreasing
+en,pos,stackpointer,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,depth_mean,False,decreasing,decreasing
+en,pos,stackpointer,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010350318471337,topo_edit_distance,False,decreasing,no trend
+en,pos,stackpointer,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,ndd,False,decreasing,decreasing
+en,pos,stackpointer,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,mdd,False,decreasing,decreasing
+en,pos,stackpointer,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,height,False,no trend,no trend
+en,pos,stackpointer,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,left_child_ratio,False,decreasing,decreasing
+en,pos,stackpointer,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,k_ary,False,no trend,no trend
+en,pos,stackpointer,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,num_leaves,False,increasing,increasing
+en,pos,stackpointer,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,n_num_crossing,False,no trend,no trend
+en,pos,stackpointer,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,degree_var,False,no trend,no trend
+en,pos,stackpointer,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,degree_mean,False,no trend,no trend
+en,pos,stackpointer,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,depth_var,False,no trend,no trend
+en,pos,stackpointer,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,depth_mean,False,no trend,no trend
+en,pos,stackpointer,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.217842323651452,topo_edit_distance,False,decreasing,no trend
+en,pos,stackpointer,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.348484848484848,ndd,False,no trend,no trend
+en,pos,stackpointer,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.348484848484848,mdd,False,no trend,no trend
+en,pos,stackpointer,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.348484848484848,height,False,no trend,no trend
+en,pos,stackpointer,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.348484848484848,left_child_ratio,False,no trend,no trend
+en,pos,stackpointer,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.348484848484848,k_ary,False,no trend,no trend
+en,pos,stackpointer,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.348484848484848,num_leaves,False,no trend,no trend
+en,pos,stackpointer,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.348484848484848,n_num_crossing,False,no trend,no trend
+en,pos,stackpointer,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.348484848484848,degree_var,False,no trend,no trend
+en,pos,stackpointer,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.348484848484848,degree_mean,False,no trend,no trend
+en,pos,stackpointer,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.348484848484848,depth_var,False,no trend,no trend
+en,pos,stackpointer,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.348484848484848,depth_mean,False,no trend,no trend
+en,pos,stackpointer,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.348484848484848,topo_edit_distance,False,no trend,no trend
+en,pos,stackpointer,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,ndd,False,decreasing,decreasing
+en,pos,stackpointer,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,mdd,False,no trend,no trend
+en,pos,stackpointer,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,height,False,no trend,no trend
+en,pos,stackpointer,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,left_child_ratio,False,no trend,no trend
+en,pos,stackpointer,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,k_ary,False,no trend,no trend
+en,pos,stackpointer,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,num_leaves,False,no trend,no trend
+en,pos,stackpointer,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,n_num_crossing,False,no trend,no trend
+en,pos,stackpointer,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,degree_var,False,no trend,no trend
+en,pos,stackpointer,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,degree_mean,False,no trend,no trend
+en,pos,stackpointer,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,depth_var,False,no trend,no trend
+en,pos,stackpointer,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,depth_mean,False,no trend,no trend
+en,pos,stackpointer,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.176724137931034,topo_edit_distance,False,increasing,no trend
+en,pos,stackpointer,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,ndd,False,increasing,increasing
+en,pos,stackpointer,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,mdd,False,increasing,increasing
+en,pos,stackpointer,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,height,False,decreasing,decreasing
+en,pos,stackpointer,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,left_child_ratio,False,increasing,increasing
+en,pos,stackpointer,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,k_ary,False,increasing,increasing
+en,pos,stackpointer,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,num_leaves,False,increasing,increasing
+en,pos,stackpointer,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,n_num_crossing,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,degree_var,False,increasing,increasing
+en,pos,stackpointer,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,degree_mean,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,depth_var,False,decreasing,decreasing
+en,pos,stackpointer,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,depth_mean,False,decreasing,decreasing
+en,pos,stackpointer,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010261194029852,topo_edit_distance,False,decreasing,decreasing
+en,pos,stackpointer,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,ndd,False,decreasing,no trend
+en,pos,stackpointer,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,mdd,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,height,False,increasing,no trend
+en,pos,stackpointer,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,left_child_ratio,False,decreasing,decreasing
+en,pos,stackpointer,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,k_ary,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,num_leaves,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,n_num_crossing,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,degree_var,False,decreasing,decreasing
+en,pos,stackpointer,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,degree_mean,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,depth_var,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,depth_mean,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.073260073260073,topo_edit_distance,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.212121212121213,ndd,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.212121212121213,mdd,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.212121212121213,height,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.212121212121213,left_child_ratio,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.212121212121213,k_ary,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.212121212121213,num_leaves,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.212121212121213,n_num_crossing,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.212121212121213,degree_var,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.212121212121213,degree_mean,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.212121212121213,depth_var,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.212121212121213,depth_mean,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.212121212121213,topo_edit_distance,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,ndd,False,decreasing,decreasing
+en,pos,stackpointer,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,mdd,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,height,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,left_child_ratio,False,decreasing,decreasing
+en,pos,stackpointer,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,k_ary,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,num_leaves,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,n_num_crossing,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,degree_var,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,degree_mean,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,depth_var,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,depth_mean,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.10909090909091,topo_edit_distance,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,ndd,False,decreasing,decreasing
+en,pos,stackpointer,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,mdd,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,height,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,left_child_ratio,False,decreasing,decreasing
+en,pos,stackpointer,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,k_ary,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,num_leaves,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,n_num_crossing,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,degree_var,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,degree_mean,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,depth_var,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,depth_mean,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.175,topo_edit_distance,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,ndd,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,mdd,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,height,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,left_child_ratio,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,k_ary,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,num_leaves,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,n_num_crossing,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,degree_var,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,degree_mean,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,depth_var,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,depth_mean,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.443548387096774,topo_edit_distance,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,ndd,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,mdd,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,height,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,left_child_ratio,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,k_ary,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,num_leaves,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,n_num_crossing,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,degree_var,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,degree_mean,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,depth_var,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,depth_mean,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.138297872340425,topo_edit_distance,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,ndd,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,mdd,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,height,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,left_child_ratio,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,k_ary,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,num_leaves,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,n_num_crossing,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,degree_var,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,degree_mean,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,depth_var,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,depth_mean,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.34375,topo_edit_distance,False,no trend,decreasing
+en,pos,stackpointer,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.307971014492754,ndd,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.307971014492754,mdd,False,decreasing,decreasing
+en,pos,stackpointer,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.307971014492754,height,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.307971014492754,left_child_ratio,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.307971014492754,k_ary,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.307971014492754,num_leaves,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.307971014492754,n_num_crossing,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.307971014492754,degree_var,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.307971014492754,degree_mean,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.307971014492754,depth_var,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.307971014492754,depth_mean,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.307971014492754,topo_edit_distance,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,ndd,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,mdd,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,height,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,left_child_ratio,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,k_ary,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,num_leaves,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,n_num_crossing,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,degree_var,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,degree_mean,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,depth_var,False,no trend,increasing
+en,pos,stackpointer,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,depth_mean,False,no trend,no trend
+en,pos,stackpointer,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.3,topo_edit_distance,False,no trend,no trend
+en,pos,stackpointer,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,ndd,False,no trend,no trend
+en,pos,stackpointer,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,mdd,False,no trend,no trend
+en,pos,stackpointer,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,height,False,no trend,no trend
+en,pos,stackpointer,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,left_child_ratio,False,no trend,no trend
+en,pos,stackpointer,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,k_ary,False,no trend,no trend
+en,pos,stackpointer,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,num_leaves,False,no trend,no trend
+en,pos,stackpointer,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,n_num_crossing,False,no trend,no trend
+en,pos,stackpointer,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,degree_var,False,no trend,no trend
+en,pos,stackpointer,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,degree_mean,False,no trend,no trend
+en,pos,stackpointer,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,depth_var,False,no trend,no trend
+en,pos,stackpointer,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,depth_mean,False,no trend,no trend
+en,pos,stackpointer,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107142857142858,topo_edit_distance,False,no trend,no trend
+en,pos,stackpointer,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,ndd,False,decreasing,decreasing
+en,pos,stackpointer,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,mdd,False,no trend,no trend
+en,pos,stackpointer,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,height,False,no trend,no trend
+en,pos,stackpointer,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,left_child_ratio,False,decreasing,decreasing
+en,pos,stackpointer,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,k_ary,False,no trend,no trend
+en,pos,stackpointer,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,num_leaves,False,no trend,no trend
+en,pos,stackpointer,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,n_num_crossing,False,no trend,no trend
+en,pos,stackpointer,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,degree_var,False,no trend,no trend
+en,pos,stackpointer,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,degree_mean,False,no trend,no trend
+en,pos,stackpointer,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,depth_var,False,no trend,no trend
+en,pos,stackpointer,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,depth_mean,False,no trend,no trend
+en,pos,stackpointer,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.4375,topo_edit_distance,False,no trend,no trend
+en,pos,stackpointer,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,ndd,False,decreasing,decreasing
+en,pos,stackpointer,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,mdd,False,no trend,no trend
+en,pos,stackpointer,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,height,False,no trend,no trend
+en,pos,stackpointer,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,left_child_ratio,False,no trend,no trend
+en,pos,stackpointer,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,k_ary,False,no trend,no trend
+en,pos,stackpointer,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,num_leaves,False,no trend,no trend
+en,pos,stackpointer,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,n_num_crossing,False,no trend,no trend
+en,pos,stackpointer,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,degree_var,False,no trend,no trend
+en,pos,stackpointer,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,degree_mean,False,no trend,no trend
+en,pos,stackpointer,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,depth_var,False,no trend,no trend
+en,pos,stackpointer,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,depth_mean,False,no trend,no trend
+en,pos,stackpointer,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.270833333333334,topo_edit_distance,False,no trend,no trend
+en,pos,stackpointer,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,ndd,False,no trend,no trend
+en,pos,stackpointer,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,mdd,False,no trend,no trend
+en,pos,stackpointer,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,height,False,no trend,no trend
+en,pos,stackpointer,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,left_child_ratio,False,no trend,no trend
+en,pos,stackpointer,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,k_ary,False,no trend,no trend
+en,pos,stackpointer,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,num_leaves,False,no trend,no trend
+en,pos,stackpointer,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,n_num_crossing,False,no trend,no trend
+en,pos,stackpointer,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,degree_var,False,no trend,no trend
+en,pos,stackpointer,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,degree_mean,False,no trend,no trend
+en,pos,stackpointer,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,depth_var,False,no trend,no trend
+en,pos,stackpointer,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,depth_mean,False,no trend,no trend
+en,pos,stackpointer,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.348360655737705,topo_edit_distance,False,decreasing,no trend
+en,pos,stackpointer,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,ndd,False,no trend,no trend
+en,pos,stackpointer,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,mdd,False,decreasing,decreasing
+en,pos,stackpointer,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,height,False,increasing,increasing
+en,pos,stackpointer,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,left_child_ratio,False,decreasing,decreasing
+en,pos,stackpointer,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,k_ary,False,no trend,no trend
+en,pos,stackpointer,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,num_leaves,False,no trend,no trend
+en,pos,stackpointer,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,n_num_crossing,False,no trend,no trend
+en,pos,stackpointer,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,degree_var,False,no trend,no trend
+en,pos,stackpointer,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,degree_mean,False,no trend,no trend
+en,pos,stackpointer,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,depth_var,False,increasing,increasing
+en,pos,stackpointer,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,depth_mean,False,no trend,no trend
+en,pos,stackpointer,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.459677419354838,topo_edit_distance,False,increasing,increasing
+en,pos,stackpointer,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.45138888888889,ndd,False,no trend,no trend
+en,pos,stackpointer,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.45138888888889,mdd,False,no trend,no trend
+en,pos,stackpointer,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.45138888888889,height,False,no trend,no trend
+en,pos,stackpointer,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.45138888888889,left_child_ratio,False,no trend,no trend
+en,pos,stackpointer,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.45138888888889,k_ary,False,no trend,no trend
+en,pos,stackpointer,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.45138888888889,num_leaves,False,no trend,no trend
+en,pos,stackpointer,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.45138888888889,n_num_crossing,False,no trend,no trend
+en,pos,stackpointer,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.45138888888889,degree_var,False,no trend,no trend
+en,pos,stackpointer,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.45138888888889,degree_mean,False,no trend,no trend
+en,pos,stackpointer,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.45138888888889,depth_var,False,no trend,no trend
+en,pos,stackpointer,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.45138888888889,depth_mean,False,no trend,no trend
+en,pos,stackpointer,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.45138888888889,topo_edit_distance,False,no trend,no trend
+en,pos,stackpointer,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,ndd,False,no trend,no trend
+en,pos,stackpointer,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,mdd,False,no trend,no trend
+en,pos,stackpointer,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,height,False,increasing,increasing
+en,pos,stackpointer,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,left_child_ratio,False,decreasing,decreasing
+en,pos,stackpointer,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,k_ary,False,decreasing,decreasing
+en,pos,stackpointer,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,num_leaves,False,no trend,no trend
+en,pos,stackpointer,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,n_num_crossing,False,no trend,no trend
+en,pos,stackpointer,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,degree_var,False,decreasing,decreasing
+en,pos,stackpointer,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,degree_mean,False,no trend,no trend
+en,pos,stackpointer,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,depth_var,False,increasing,increasing
+en,pos,stackpointer,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,depth_mean,False,increasing,increasing
+en,pos,stackpointer,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.041666666666666,topo_edit_distance,False,increasing,increasing
+en,pos,stackpointer,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,ndd,False,no trend,no trend
+en,pos,stackpointer,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,mdd,False,no trend,no trend
+en,pos,stackpointer,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,height,False,no trend,no trend
+en,pos,stackpointer,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,left_child_ratio,False,no trend,no trend
+en,pos,stackpointer,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,k_ary,False,no trend,no trend
+en,pos,stackpointer,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,num_leaves,False,no trend,no trend
+en,pos,stackpointer,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,n_num_crossing,False,no trend,no trend
+en,pos,stackpointer,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,degree_var,False,no trend,no trend
+en,pos,stackpointer,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,degree_mean,False,no trend,no trend
+en,pos,stackpointer,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,depth_var,False,no trend,no trend
+en,pos,stackpointer,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,depth_mean,False,no trend,no trend
+en,pos,stackpointer,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.094827586206897,topo_edit_distance,False,no trend,no trend
+en,pos,stackpointer,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,ndd,False,increasing,increasing
+en,pos,stackpointer,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,mdd,False,decreasing,decreasing
+en,pos,stackpointer,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,height,False,no trend,no trend
+en,pos,stackpointer,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,left_child_ratio,False,no trend,no trend
+en,pos,stackpointer,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,k_ary,False,no trend,no trend
+en,pos,stackpointer,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,num_leaves,False,no trend,no trend
+en,pos,stackpointer,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,n_num_crossing,False,no trend,no trend
+en,pos,stackpointer,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,degree_var,False,no trend,no trend
+en,pos,stackpointer,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,degree_mean,False,no trend,no trend
+en,pos,stackpointer,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,depth_var,False,no trend,no trend
+en,pos,stackpointer,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,depth_mean,False,no trend,no trend
+en,pos,stackpointer,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.119318181818182,topo_edit_distance,False,no trend,no trend
+en,pos,stackpointer,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,ndd,False,no trend,no trend
+en,pos,stackpointer,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,mdd,False,no trend,no trend
+en,pos,stackpointer,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,height,False,no trend,no trend
+en,pos,stackpointer,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,left_child_ratio,False,no trend,no trend
+en,pos,stackpointer,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,k_ary,False,no trend,no trend
+en,pos,stackpointer,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,num_leaves,False,no trend,no trend
+en,pos,stackpointer,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,n_num_crossing,False,no trend,no trend
+en,pos,stackpointer,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,degree_var,False,no trend,no trend
+en,pos,stackpointer,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,degree_mean,False,no trend,no trend
+en,pos,stackpointer,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,depth_var,False,no trend,no trend
+en,pos,stackpointer,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,depth_mean,False,no trend,no trend
+en,pos,stackpointer,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.121794871794872,topo_edit_distance,False,no trend,no trend
+en,pos,stackpointer,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,ndd,False,no trend,no trend
+en,pos,stackpointer,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,mdd,False,no trend,no trend
+en,pos,stackpointer,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,height,False,no trend,no trend
+en,pos,stackpointer,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,left_child_ratio,False,no trend,no trend
+en,pos,stackpointer,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,k_ary,False,no trend,no trend
+en,pos,stackpointer,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,num_leaves,False,no trend,no trend
+en,pos,stackpointer,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,n_num_crossing,False,no trend,no trend
+en,pos,stackpointer,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,degree_var,False,no trend,no trend
+en,pos,stackpointer,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,degree_mean,False,no trend,no trend
+en,pos,stackpointer,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,depth_var,False,no trend,no trend
+en,pos,stackpointer,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,depth_mean,False,no trend,no trend
+en,pos,stackpointer,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.178571428571429,topo_edit_distance,False,no trend,no trend
+en,pos,stackpointer,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,ndd,False,no trend,no trend
+en,pos,stackpointer,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,mdd,False,no trend,no trend
+en,pos,stackpointer,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,height,False,no trend,no trend
+en,pos,stackpointer,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,left_child_ratio,False,no trend,no trend
+en,pos,stackpointer,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,k_ary,False,no trend,no trend
+en,pos,stackpointer,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,num_leaves,False,no trend,no trend
+en,pos,stackpointer,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,n_num_crossing,False,no trend,no trend
+en,pos,stackpointer,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,degree_var,False,no trend,no trend
+en,pos,stackpointer,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,degree_mean,False,no trend,no trend
+en,pos,stackpointer,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,depth_var,False,no trend,no trend
+en,pos,stackpointer,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,depth_mean,False,no trend,no trend
+en,pos,stackpointer,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.121794871794872,topo_edit_distance,False,no trend,no trend
+en,pos,towerparse,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.119047619047619,ndd,False,no trend,no trend
+en,pos,towerparse,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.119047619047619,mdd,False,decreasing,decreasing
+en,pos,towerparse,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.119047619047619,height,False,no trend,no trend
+en,pos,towerparse,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.119047619047619,left_child_ratio,False,decreasing,no trend
+en,pos,towerparse,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.119047619047619,k_ary,False,no trend,no trend
+en,pos,towerparse,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.119047619047619,num_leaves,False,no trend,no trend
+en,pos,towerparse,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.119047619047619,n_num_crossing,False,no trend,no trend
+en,pos,towerparse,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.119047619047619,degree_var,False,no trend,no trend
+en,pos,towerparse,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.119047619047619,degree_mean,False,no trend,no trend
+en,pos,towerparse,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.119047619047619,depth_var,False,no trend,no trend
+en,pos,towerparse,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.119047619047619,depth_mean,False,no trend,no trend
+en,pos,towerparse,0-0-1-1-0-0-0-0-0-0-0-0-2-0-0-1,6.119047619047619,topo_edit_distance,False,no trend,no trend
+en,pos,towerparse,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.006134969325154,ndd,False,increasing,increasing
+en,pos,towerparse,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.006134969325154,mdd,False,decreasing,decreasing
+en,pos,towerparse,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.006134969325154,height,False,decreasing,no trend
+en,pos,towerparse,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.006134969325154,left_child_ratio,False,decreasing,no trend
+en,pos,towerparse,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.006134969325154,k_ary,False,increasing,no trend
+en,pos,towerparse,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.006134969325154,num_leaves,False,increasing,no trend
+en,pos,towerparse,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.006134969325154,n_num_crossing,False,no trend,no trend
+en,pos,towerparse,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.006134969325154,degree_var,False,increasing,no trend
+en,pos,towerparse,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.006134969325154,degree_mean,False,no trend,no trend
+en,pos,towerparse,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.006134969325154,depth_var,False,decreasing,no trend
+en,pos,towerparse,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.006134969325154,depth_mean,False,decreasing,no trend
+en,pos,towerparse,0-1-0-1-0-0-0-0-0-0-0-0-2-0-0-1,6.006134969325154,topo_edit_distance,False,decreasing,no trend
+en,pos,towerparse,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.00929054054054,ndd,False,increasing,increasing
+en,pos,towerparse,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.00929054054054,mdd,False,decreasing,decreasing
+en,pos,towerparse,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.00929054054054,height,False,no trend,no trend
+en,pos,towerparse,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.00929054054054,left_child_ratio,False,decreasing,no trend
+en,pos,towerparse,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.00929054054054,k_ary,False,increasing,no trend
+en,pos,towerparse,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.00929054054054,num_leaves,False,no trend,no trend
+en,pos,towerparse,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.00929054054054,n_num_crossing,False,no trend,no trend
+en,pos,towerparse,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.00929054054054,degree_var,False,increasing,no trend
+en,pos,towerparse,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.00929054054054,degree_mean,False,no trend,no trend
+en,pos,towerparse,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.00929054054054,depth_var,False,decreasing,no trend
+en,pos,towerparse,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.00929054054054,depth_mean,False,decreasing,no trend
+en,pos,towerparse,1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-1,6.00929054054054,topo_edit_distance,False,no trend,no trend
+en,pos,towerparse,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022988505747127,ndd,False,decreasing,decreasing
+en,pos,towerparse,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022988505747127,mdd,False,decreasing,decreasing
+en,pos,towerparse,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022988505747127,height,False,no trend,no trend
+en,pos,towerparse,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022988505747127,left_child_ratio,False,decreasing,decreasing
+en,pos,towerparse,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022988505747127,k_ary,False,no trend,no trend
+en,pos,towerparse,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022988505747127,num_leaves,False,increasing,increasing
+en,pos,towerparse,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022988505747127,n_num_crossing,False,no trend,no trend
+en,pos,towerparse,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022988505747127,degree_var,False,increasing,increasing
+en,pos,towerparse,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022988505747127,degree_mean,False,no trend,no trend
+en,pos,towerparse,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022988505747127,depth_var,False,increasing,increasing
+en,pos,towerparse,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022988505747127,depth_mean,False,no trend,no trend
+en,pos,towerparse,1-0-0-1-0-1-0-0-1-0-0-0-1-0-0-1,7.022988505747127,topo_edit_distance,False,decreasing,no trend
+en,pos,towerparse,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010050251256281,ndd,False,increasing,increasing
+en,pos,towerparse,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010050251256281,mdd,False,increasing,increasing
+en,pos,towerparse,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010050251256281,height,False,decreasing,decreasing
+en,pos,towerparse,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010050251256281,left_child_ratio,False,increasing,increasing
+en,pos,towerparse,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010050251256281,k_ary,False,increasing,increasing
+en,pos,towerparse,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010050251256281,num_leaves,False,increasing,increasing
+en,pos,towerparse,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010050251256281,n_num_crossing,False,no trend,no trend
+en,pos,towerparse,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010050251256281,degree_var,False,increasing,increasing
+en,pos,towerparse,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010050251256281,degree_mean,False,no trend,no trend
+en,pos,towerparse,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010050251256281,depth_var,False,decreasing,decreasing
+en,pos,towerparse,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010050251256281,depth_mean,False,decreasing,decreasing
+en,pos,towerparse,1-0-0-1-0-1-1-0-0-0-0-0-1-0-0-0,6.010050251256281,topo_edit_distance,False,no trend,no trend
+en,pos,towerparse,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.237086092715232,ndd,False,decreasing,no trend
+en,pos,towerparse,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.237086092715232,mdd,False,decreasing,decreasing
+en,pos,towerparse,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.237086092715232,height,False,no trend,no trend
+en,pos,towerparse,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.237086092715232,left_child_ratio,False,decreasing,decreasing
+en,pos,towerparse,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.237086092715232,k_ary,False,no trend,no trend
+en,pos,towerparse,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.237086092715232,num_leaves,False,increasing,no trend
+en,pos,towerparse,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.237086092715232,n_num_crossing,False,no trend,no trend
+en,pos,towerparse,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.237086092715232,degree_var,False,no trend,no trend
+en,pos,towerparse,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.237086092715232,degree_mean,False,no trend,no trend
+en,pos,towerparse,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.237086092715232,depth_var,False,no trend,no trend
+en,pos,towerparse,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.237086092715232,depth_mean,False,no trend,no trend
+en,pos,towerparse,1-0-1-1-0-1-0-0-0-0-0-0-1-0-0-1,7.237086092715232,topo_edit_distance,False,decreasing,no trend
+en,pos,towerparse,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.326923076923077,ndd,False,no trend,no trend
+en,pos,towerparse,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.326923076923077,mdd,False,no trend,no trend
+en,pos,towerparse,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.326923076923077,height,False,no trend,no trend
+en,pos,towerparse,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.326923076923077,left_child_ratio,False,no trend,no trend
+en,pos,towerparse,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.326923076923077,k_ary,False,no trend,no trend
+en,pos,towerparse,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.326923076923077,num_leaves,False,no trend,no trend
+en,pos,towerparse,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.326923076923077,n_num_crossing,False,no trend,no trend
+en,pos,towerparse,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.326923076923077,degree_var,False,no trend,no trend
+en,pos,towerparse,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.326923076923077,degree_mean,False,no trend,no trend
+en,pos,towerparse,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.326923076923077,depth_var,False,no trend,no trend
+en,pos,towerparse,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.326923076923077,depth_mean,False,no trend,no trend
+en,pos,towerparse,1-0-1-1-0-2-1-0-1-0-0-0-2-0-0-1,11.326923076923077,topo_edit_distance,False,no trend,no trend
+en,pos,towerparse,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.175824175824175,ndd,False,decreasing,decreasing
+en,pos,towerparse,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.175824175824175,mdd,False,increasing,increasing
+en,pos,towerparse,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.175824175824175,height,False,no trend,no trend
+en,pos,towerparse,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.175824175824175,left_child_ratio,False,no trend,decreasing
+en,pos,towerparse,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.175824175824175,k_ary,False,no trend,no trend
+en,pos,towerparse,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.175824175824175,num_leaves,False,no trend,no trend
+en,pos,towerparse,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.175824175824175,n_num_crossing,False,no trend,no trend
+en,pos,towerparse,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.175824175824175,degree_var,False,no trend,no trend
+en,pos,towerparse,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.175824175824175,degree_mean,False,no trend,no trend
+en,pos,towerparse,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.175824175824175,depth_var,False,no trend,no trend
+en,pos,towerparse,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.175824175824175,depth_mean,False,no trend,no trend
+en,pos,towerparse,2-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,11.175824175824175,topo_edit_distance,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010650887573965,ndd,False,increasing,increasing
+en,pos,towerparse,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010650887573965,mdd,False,increasing,increasing
+en,pos,towerparse,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010650887573965,height,False,decreasing,decreasing
+en,pos,towerparse,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010650887573965,left_child_ratio,False,increasing,increasing
+en,pos,towerparse,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010650887573965,k_ary,False,increasing,increasing
+en,pos,towerparse,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010650887573965,num_leaves,False,increasing,increasing
+en,pos,towerparse,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010650887573965,n_num_crossing,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010650887573965,degree_var,False,increasing,increasing
+en,pos,towerparse,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010650887573965,degree_mean,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010650887573965,depth_var,False,decreasing,decreasing
+en,pos,towerparse,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010650887573965,depth_mean,False,decreasing,decreasing
+en,pos,towerparse,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-0,8.010650887573965,topo_edit_distance,False,decreasing,decreasing
+en,pos,towerparse,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.0848623853211,ndd,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.0848623853211,mdd,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.0848623853211,height,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.0848623853211,left_child_ratio,False,decreasing,decreasing
+en,pos,towerparse,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.0848623853211,k_ary,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.0848623853211,num_leaves,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.0848623853211,n_num_crossing,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.0848623853211,degree_var,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.0848623853211,degree_mean,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.0848623853211,depth_var,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.0848623853211,depth_mean,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-2-0-0-1-0-0-0-1-0-0-1,9.0848623853211,topo_edit_distance,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.188118811881187,ndd,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.188118811881187,mdd,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.188118811881187,height,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.188118811881187,left_child_ratio,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.188118811881187,k_ary,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.188118811881187,num_leaves,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.188118811881187,n_num_crossing,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.188118811881187,degree_var,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.188118811881187,degree_mean,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.188118811881187,depth_var,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.188118811881187,depth_mean,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-2-1-0-1-0-0-0-2-0-0-1,11.188118811881187,topo_edit_distance,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.108571428571429,ndd,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.108571428571429,mdd,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.108571428571429,height,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.108571428571429,left_child_ratio,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.108571428571429,k_ary,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.108571428571429,num_leaves,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.108571428571429,n_num_crossing,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.108571428571429,degree_var,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.108571428571429,degree_mean,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.108571428571429,depth_var,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.108571428571429,depth_mean,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-2-1-0-2-0-0-0-1-0-0-1,11.108571428571429,topo_edit_distance,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.163157894736843,ndd,False,decreasing,decreasing
+en,pos,towerparse,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.163157894736843,mdd,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.163157894736843,height,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.163157894736843,left_child_ratio,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.163157894736843,k_ary,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.163157894736843,num_leaves,False,increasing,no trend
+en,pos,towerparse,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.163157894736843,n_num_crossing,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.163157894736843,degree_var,False,increasing,increasing
+en,pos,towerparse,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.163157894736843,degree_mean,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.163157894736843,depth_var,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.163157894736843,depth_mean,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,11.163157894736843,topo_edit_distance,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.425742574257425,ndd,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.425742574257425,mdd,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.425742574257425,height,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.425742574257425,left_child_ratio,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.425742574257425,k_ary,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.425742574257425,num_leaves,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.425742574257425,n_num_crossing,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.425742574257425,degree_var,False,no trend,increasing
+en,pos,towerparse,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.425742574257425,degree_mean,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.425742574257425,depth_var,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.425742574257425,depth_mean,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-1-0-1-0-0-0-1-0-0-1,11.425742574257425,topo_edit_distance,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.155405405405405,ndd,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.155405405405405,mdd,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.155405405405405,height,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.155405405405405,left_child_ratio,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.155405405405405,k_ary,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.155405405405405,num_leaves,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.155405405405405,n_num_crossing,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.155405405405405,degree_var,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.155405405405405,degree_mean,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.155405405405405,depth_var,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.155405405405405,depth_mean,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-1-0-2-0-0-0-0-0-0-1,11.155405405405405,topo_edit_distance,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.298850574712644,ndd,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.298850574712644,mdd,False,increasing,increasing
+en,pos,towerparse,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.298850574712644,height,False,decreasing,decreasing
+en,pos,towerparse,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.298850574712644,left_child_ratio,False,increasing,increasing
+en,pos,towerparse,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.298850574712644,k_ary,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.298850574712644,num_leaves,False,increasing,increasing
+en,pos,towerparse,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.298850574712644,n_num_crossing,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.298850574712644,degree_var,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.298850574712644,degree_mean,False,increasing,increasing
+en,pos,towerparse,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.298850574712644,depth_var,False,decreasing,decreasing
+en,pos,towerparse,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.298850574712644,depth_mean,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-0,11.298850574712644,topo_edit_distance,False,decreasing,decreasing
+en,pos,towerparse,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.299539170506913,ndd,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.299539170506913,mdd,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.299539170506913,height,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.299539170506913,left_child_ratio,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.299539170506913,k_ary,False,increasing,no trend
+en,pos,towerparse,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.299539170506913,num_leaves,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.299539170506913,n_num_crossing,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.299539170506913,degree_var,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.299539170506913,degree_mean,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.299539170506913,depth_var,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.299539170506913,depth_mean,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,12.299539170506913,topo_edit_distance,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.273684210526316,ndd,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.273684210526316,mdd,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.273684210526316,height,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.273684210526316,left_child_ratio,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.273684210526316,k_ary,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.273684210526316,num_leaves,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.273684210526316,n_num_crossing,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.273684210526316,degree_var,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.273684210526316,degree_mean,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.273684210526316,depth_var,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.273684210526316,depth_mean,False,no trend,no trend
+en,pos,towerparse,2-0-0-1-0-3-2-0-2-0-0-0-1-0-0-1,13.273684210526316,topo_edit_distance,False,no trend,no trend
+en,pos,towerparse,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107692307692307,ndd,False,no trend,no trend
+en,pos,towerparse,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107692307692307,mdd,False,no trend,no trend
+en,pos,towerparse,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107692307692307,height,False,no trend,no trend
+en,pos,towerparse,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107692307692307,left_child_ratio,False,no trend,no trend
+en,pos,towerparse,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107692307692307,k_ary,False,no trend,no trend
+en,pos,towerparse,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107692307692307,num_leaves,False,no trend,no trend
+en,pos,towerparse,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107692307692307,n_num_crossing,False,no trend,no trend
+en,pos,towerparse,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107692307692307,degree_var,False,no trend,no trend
+en,pos,towerparse,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107692307692307,degree_mean,False,no trend,no trend
+en,pos,towerparse,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107692307692307,depth_var,False,no trend,no trend
+en,pos,towerparse,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107692307692307,depth_mean,False,no trend,no trend
+en,pos,towerparse,2-0-0-2-0-3-1-0-2-0-0-0-0-0-0-1,12.107692307692307,topo_edit_distance,False,no trend,no trend
+en,pos,towerparse,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.487603305785123,ndd,False,no trend,no trend
+en,pos,towerparse,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.487603305785123,mdd,False,no trend,no trend
+en,pos,towerparse,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.487603305785123,height,False,no trend,no trend
+en,pos,towerparse,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.487603305785123,left_child_ratio,False,decreasing,decreasing
+en,pos,towerparse,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.487603305785123,k_ary,False,no trend,no trend
+en,pos,towerparse,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.487603305785123,num_leaves,False,no trend,no trend
+en,pos,towerparse,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.487603305785123,n_num_crossing,False,no trend,no trend
+en,pos,towerparse,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.487603305785123,degree_var,False,no trend,no trend
+en,pos,towerparse,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.487603305785123,degree_mean,False,no trend,no trend
+en,pos,towerparse,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.487603305785123,depth_var,False,no trend,no trend
+en,pos,towerparse,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.487603305785123,depth_mean,False,no trend,no trend
+en,pos,towerparse,2-0-1-0-0-3-1-0-2-0-0-0-1-0-0-1,12.487603305785123,topo_edit_distance,False,no trend,no trend
+en,pos,towerparse,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.256544502617801,ndd,False,decreasing,decreasing
+en,pos,towerparse,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.256544502617801,mdd,False,no trend,no trend
+en,pos,towerparse,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.256544502617801,height,False,no trend,no trend
+en,pos,towerparse,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.256544502617801,left_child_ratio,False,no trend,no trend
+en,pos,towerparse,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.256544502617801,k_ary,False,no trend,no trend
+en,pos,towerparse,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.256544502617801,num_leaves,False,no trend,no trend
+en,pos,towerparse,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.256544502617801,n_num_crossing,False,no trend,no trend
+en,pos,towerparse,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.256544502617801,degree_var,False,no trend,no trend
+en,pos,towerparse,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.256544502617801,degree_mean,False,no trend,no trend
+en,pos,towerparse,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.256544502617801,depth_var,False,no trend,no trend
+en,pos,towerparse,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.256544502617801,depth_mean,False,no trend,no trend
+en,pos,towerparse,2-0-1-1-0-2-0-0-2-0-0-0-1-0-0-1,11.256544502617801,topo_edit_distance,False,no trend,no trend
+en,pos,towerparse,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.32620320855615,ndd,False,no trend,no trend
+en,pos,towerparse,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.32620320855615,mdd,False,no trend,no trend
+en,pos,towerparse,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.32620320855615,height,False,decreasing,no trend
+en,pos,towerparse,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.32620320855615,left_child_ratio,False,increasing,increasing
+en,pos,towerparse,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.32620320855615,k_ary,False,increasing,increasing
+en,pos,towerparse,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.32620320855615,num_leaves,False,no trend,no trend
+en,pos,towerparse,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.32620320855615,n_num_crossing,False,no trend,no trend
+en,pos,towerparse,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.32620320855615,degree_var,False,increasing,increasing
+en,pos,towerparse,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.32620320855615,degree_mean,False,no trend,no trend
+en,pos,towerparse,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.32620320855615,depth_var,False,decreasing,decreasing
+en,pos,towerparse,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.32620320855615,depth_mean,False,decreasing,decreasing
+en,pos,towerparse,2-0-1-1-0-2-1-0-1-0-0-0-1-0-0-1,11.32620320855615,topo_edit_distance,False,decreasing,decreasing
+en,pos,towerparse,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.495049504950495,ndd,False,no trend,no trend
+en,pos,towerparse,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.495049504950495,mdd,False,decreasing,decreasing
+en,pos,towerparse,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.495049504950495,height,False,no trend,no trend
+en,pos,towerparse,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.495049504950495,left_child_ratio,False,decreasing,decreasing
+en,pos,towerparse,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.495049504950495,k_ary,False,no trend,no trend
+en,pos,towerparse,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.495049504950495,num_leaves,False,no trend,no trend
+en,pos,towerparse,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.495049504950495,n_num_crossing,False,no trend,no trend
+en,pos,towerparse,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.495049504950495,degree_var,False,no trend,no trend
+en,pos,towerparse,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.495049504950495,degree_mean,False,no trend,no trend
+en,pos,towerparse,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.495049504950495,depth_var,False,no trend,no trend
+en,pos,towerparse,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.495049504950495,depth_mean,False,no trend,no trend
+en,pos,towerparse,2-0-1-1-0-3-0-0-2-0-0-0-1-0-0-1,12.495049504950495,topo_edit_distance,False,no trend,no trend
+en,pos,towerparse,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.415929203539823,ndd,False,no trend,no trend
+en,pos,towerparse,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.415929203539823,mdd,False,no trend,no trend
+en,pos,towerparse,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.415929203539823,height,False,no trend,no trend
+en,pos,towerparse,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.415929203539823,left_child_ratio,False,decreasing,decreasing
+en,pos,towerparse,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.415929203539823,k_ary,False,no trend,no trend
+en,pos,towerparse,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.415929203539823,num_leaves,False,no trend,no trend
+en,pos,towerparse,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.415929203539823,n_num_crossing,False,no trend,no trend
+en,pos,towerparse,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.415929203539823,degree_var,False,no trend,no trend
+en,pos,towerparse,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.415929203539823,degree_mean,False,no trend,no trend
+en,pos,towerparse,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.415929203539823,depth_var,False,no trend,no trend
+en,pos,towerparse,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.415929203539823,depth_mean,False,no trend,no trend
+en,pos,towerparse,2-0-1-1-0-3-1-0-2-0-0-0-1-0-0-1,13.415929203539823,topo_edit_distance,False,no trend,no trend
+en,pos,towerparse,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.053097345132743,ndd,False,no trend,no trend
+en,pos,towerparse,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.053097345132743,mdd,False,no trend,no trend
+en,pos,towerparse,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.053097345132743,height,False,no trend,no trend
+en,pos,towerparse,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.053097345132743,left_child_ratio,False,decreasing,decreasing
+en,pos,towerparse,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.053097345132743,k_ary,False,decreasing,decreasing
+en,pos,towerparse,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.053097345132743,num_leaves,False,no trend,no trend
+en,pos,towerparse,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.053097345132743,n_num_crossing,False,no trend,no trend
+en,pos,towerparse,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.053097345132743,degree_var,False,decreasing,decreasing
+en,pos,towerparse,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.053097345132743,degree_mean,False,no trend,no trend
+en,pos,towerparse,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.053097345132743,depth_var,False,increasing,increasing
+en,pos,towerparse,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.053097345132743,depth_mean,False,increasing,increasing
+en,pos,towerparse,2-1-0-1-0-2-0-0-1-0-0-0-1-0-0-2,11.053097345132743,topo_edit_distance,False,no trend,no trend
+en,pos,towerparse,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.111702127659575,ndd,False,no trend,no trend
+en,pos,towerparse,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.111702127659575,mdd,False,no trend,no trend
+en,pos,towerparse,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.111702127659575,height,False,no trend,no trend
+en,pos,towerparse,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.111702127659575,left_child_ratio,False,no trend,no trend
+en,pos,towerparse,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.111702127659575,k_ary,False,no trend,no trend
+en,pos,towerparse,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.111702127659575,num_leaves,False,no trend,no trend
+en,pos,towerparse,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.111702127659575,n_num_crossing,False,no trend,no trend
+en,pos,towerparse,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.111702127659575,degree_var,False,no trend,no trend
+en,pos,towerparse,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.111702127659575,degree_mean,False,no trend,no trend
+en,pos,towerparse,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.111702127659575,depth_var,False,no trend,no trend
+en,pos,towerparse,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.111702127659575,depth_mean,False,no trend,no trend
+en,pos,towerparse,2-1-0-1-0-2-1-0-1-0-0-0-1-0-0-1,11.111702127659575,topo_edit_distance,False,no trend,no trend
+en,pos,towerparse,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.104895104895105,ndd,False,increasing,increasing
+en,pos,towerparse,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.104895104895105,mdd,False,no trend,no trend
+en,pos,towerparse,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.104895104895105,height,False,no trend,no trend
+en,pos,towerparse,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.104895104895105,left_child_ratio,False,no trend,no trend
+en,pos,towerparse,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.104895104895105,k_ary,False,increasing,no trend
+en,pos,towerparse,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.104895104895105,num_leaves,False,no trend,no trend
+en,pos,towerparse,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.104895104895105,n_num_crossing,False,no trend,no trend
+en,pos,towerparse,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.104895104895105,degree_var,False,no trend,no trend
+en,pos,towerparse,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.104895104895105,degree_mean,False,no trend,no trend
+en,pos,towerparse,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.104895104895105,depth_var,False,no trend,no trend
+en,pos,towerparse,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.104895104895105,depth_mean,False,no trend,no trend
+en,pos,towerparse,3-0-0-0-0-3-0-0-2-0-0-0-1-0-0-1,11.104895104895105,topo_edit_distance,False,no trend,no trend
+en,pos,towerparse,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.107438016528926,ndd,False,no trend,no trend
+en,pos,towerparse,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.107438016528926,mdd,False,no trend,no trend
+en,pos,towerparse,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.107438016528926,height,False,no trend,no trend
+en,pos,towerparse,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.107438016528926,left_child_ratio,False,no trend,no trend
+en,pos,towerparse,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.107438016528926,k_ary,False,no trend,no trend
+en,pos,towerparse,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.107438016528926,num_leaves,False,no trend,no trend
+en,pos,towerparse,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.107438016528926,n_num_crossing,False,no trend,no trend
+en,pos,towerparse,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.107438016528926,degree_var,False,no trend,no trend
+en,pos,towerparse,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.107438016528926,degree_mean,False,no trend,no trend
+en,pos,towerparse,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.107438016528926,depth_var,False,no trend,no trend
+en,pos,towerparse,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.107438016528926,depth_mean,False,no trend,no trend
+en,pos,towerparse,3-0-0-0-0-3-1-0-2-0-0-0-1-0-0-1,12.107438016528926,topo_edit_distance,False,no trend,no trend
+en,pos,towerparse,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.212121212121213,ndd,False,no trend,no trend
+en,pos,towerparse,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.212121212121213,mdd,False,no trend,no trend
+en,pos,towerparse,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.212121212121213,height,False,no trend,no trend
+en,pos,towerparse,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.212121212121213,left_child_ratio,False,no trend,no trend
+en,pos,towerparse,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.212121212121213,k_ary,False,decreasing,no trend
+en,pos,towerparse,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.212121212121213,num_leaves,False,no trend,no trend
+en,pos,towerparse,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.212121212121213,n_num_crossing,False,no trend,no trend
+en,pos,towerparse,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.212121212121213,degree_var,False,no trend,no trend
+en,pos,towerparse,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.212121212121213,degree_mean,False,no trend,no trend
+en,pos,towerparse,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.212121212121213,depth_var,False,no trend,no trend
+en,pos,towerparse,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.212121212121213,depth_mean,False,no trend,no trend
+en,pos,towerparse,3-0-0-1-0-3-0-0-2-0-0-0-1-0-0-1,12.212121212121213,topo_edit_distance,False,no trend,no trend
+en,pos,towerparse,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.12295081967213,ndd,False,no trend,no trend
+en,pos,towerparse,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.12295081967213,mdd,False,no trend,no trend
+en,pos,towerparse,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.12295081967213,height,False,no trend,no trend
+en,pos,towerparse,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.12295081967213,left_child_ratio,False,no trend,no trend
+en,pos,towerparse,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.12295081967213,k_ary,False,no trend,no trend
+en,pos,towerparse,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.12295081967213,num_leaves,False,no trend,no trend
+en,pos,towerparse,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.12295081967213,n_num_crossing,False,no trend,no trend
+en,pos,towerparse,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.12295081967213,degree_var,False,no trend,no trend
+en,pos,towerparse,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.12295081967213,degree_mean,False,no trend,no trend
+en,pos,towerparse,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.12295081967213,depth_var,False,no trend,no trend
+en,pos,towerparse,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.12295081967213,depth_mean,False,no trend,no trend
+en,pos,towerparse,3-0-0-1-0-3-1-0-2-0-0-0-1-0-0-1,13.12295081967213,topo_edit_distance,False,no trend,no trend

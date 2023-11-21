@@ -1,0 +1,10 @@
+len_group,metric,trend,vote
+all,height,increasing,4
+all,depth_var,increasing,4
+all,depth_mean,increasing,4
+all,degree_mean,increasing,3
+all,root_distance,decreasing,5
+all,left_child_ratio,decreasing,4
+all,k_ary,decreasing,4
+all,mdd,decreasing,3
+all,num_crossing,decreasing,2

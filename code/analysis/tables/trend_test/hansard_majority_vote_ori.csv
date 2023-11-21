@@ -1,0 +1,9 @@
+metric,trend,vote
+height,increasing,4
+depth_var,increasing,4
+depth_mean,increasing,4
+degree_mean,increasing,3
+k_ary,decreasing,5
+root_distance,decreasing,5
+left_child_ratio,decreasing,4
+mdd,decreasing,4

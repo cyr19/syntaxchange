@@ -1,0 +1,8 @@
+metric,trend,vote
+mdd,increasing,5
+longest_path,increasing,3
+ndd,decreasing,5
+left_child_ratio,decreasing,5
+k_ary,decreasing,4
+num_leaves,decreasing,4
+degree_var,decreasing,4

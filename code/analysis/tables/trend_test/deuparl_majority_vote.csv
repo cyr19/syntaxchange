@@ -1,0 +1,9 @@
+len_group,metric,trend,vote
+all,mdd,increasing,5
+all,longest_path,increasing,3
+all,ndd,decreasing,5
+all,left_child_ratio,decreasing,5
+all,k_ary,decreasing,4
+all,degree_var,decreasing,4
+all,num_leaves,decreasing,3
+all,num_crossing,decreasing,2

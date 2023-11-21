@@ -1,0 +1,81 @@
+language,dataset,parser,len,metric,aggregation,OriMannKendall,Ori_p,Ori_slope,PartialMannKendall,partial_p,partial_slope
+en,random,stanza,31.867,ndd,False,decreasing,0.0,-3.0748646151426756e-06,no trend,0.1236011420962142,-3.0748646151426756e-06
+en,random,stanza,31.867,mdd,False,decreasing,0.0,-8.23767006802721e-06,decreasing,0.0014746032787331664,-8.23767006802721e-06
+en,random,stanza,31.867,height,False,decreasing,0.0,0.0,increasing,0.0,0.0
+en,random,stanza,31.867,left_child_ratio,False,increasing,0.03765440190767744,3.6604282902424765e-08,decreasing,3.0127855765726963e-10,3.6604282902424765e-08
+en,random,stanza,31.867,k_ary,False,decreasing,0.0,0.0,decreasing,7.305023252968113e-11,0.0
+en,random,stanza,31.867,num_leaves,False,decreasing,0.0,-0.00012818869375721061,increasing,0.0,-0.00012818869375721061
+en,random,stanza,31.867,n_num_crossing,False,decreasing,0.0,0.0,no trend,0.47923619789812366,0.0
+en,random,stanza,31.867,degree_var,False,decreasing,0.0,-4.4916508137814395e-06,decreasing,0.005104011299733813,-4.4916508137814395e-06
+en,random,stanza,31.867,degree_mean,False,decreasing,0.0,-3.337284678392471e-07,increasing,0.0,-3.337284678392471e-07
+en,random,stanza,31.867,depth_var,False,decreasing,0.0,-9.163048734218863e-06,increasing,0.0,-9.163048734218863e-06
+en,random,stanza,31.867,depth_mean,False,decreasing,0.0,-1.0023483359556931e-05,increasing,0.0,-1.0023483359556931e-05
+en,random,stanza,31.867,topo_edit_distance,False,decreasing,0.0,-8.885334754986894e-05,increasing,2.766433748746522e-09,-8.885334754986894e-05
+en,random,stanza,31.867,tree_edit_distance,False,decreasing,0.0,-0.0002679959264619178,no trend,0.22909648171536956,-0.0002679959264619178
+en,random,stanza,31.867,root_distance,False,decreasing,0.0,0.0,decreasing,4.288872752944428e-06,0.0
+en,random,stanza,31.867,longest_path,False,decreasing,0.0,-0.00026849756434352344,decreasing,0.002150090914840863,-0.00026849756434352344
+en,random,stanza,31.867,num_crossing,False,decreasing,0.0,0.0,no trend,0.4379803414468131,0.0
+en,random,biaffine,31.11655747339094,ndd,False,decreasing,0.0,-3.4730118847122314e-06,no trend,0.42890493315876244,-3.4730118847122314e-06
+en,random,biaffine,31.11655747339094,mdd,False,decreasing,0.0,-7.3397727606353305e-06,no trend,0.14029964248144222,-7.3397727606353305e-06
+en,random,biaffine,31.11655747339094,height,False,decreasing,0.0,0.0,increasing,0.0,0.0
+en,random,biaffine,31.11655747339094,left_child_ratio,False,increasing,1.0188471159189305e-05,1.253227059678618e-07,decreasing,0.0001406937254961882,1.253227059678618e-07
+en,random,biaffine,31.11655747339094,k_ary,False,decreasing,0.0,0.0,decreasing,0.0004488346359787787,0.0
+en,random,biaffine,31.11655747339094,num_leaves,False,decreasing,0.0,-0.00012758356723653993,increasing,0.0,-0.00012758356723653993
+en,random,biaffine,31.11655747339094,n_num_crossing,False,decreasing,0.0,0.0,decreasing,0.0006928615907095814,0.0
+en,random,biaffine,31.11655747339094,degree_var,False,decreasing,0.0,-3.689643934625372e-06,no trend,0.5059713879186749,-3.689643934625372e-06
+en,random,biaffine,31.11655747339094,degree_mean,False,decreasing,0.0,-3.339959813603511e-07,increasing,0.0,-3.339959813603511e-07
+en,random,biaffine,31.11655747339094,depth_var,False,decreasing,0.0,-9.615853538941123e-06,increasing,0.0,-9.615853538941123e-06
+en,random,biaffine,31.11655747339094,depth_mean,False,decreasing,0.0,-1.047864975113206e-05,increasing,0.0,-1.047864975113206e-05
+en,random,biaffine,31.11655747339094,topo_edit_distance,False,decreasing,0.0,-9.48316737790422e-05,increasing,0.019628403064356093,-9.48316737790422e-05
+en,random,biaffine,31.11655747339094,tree_edit_distance,False,decreasing,0.0,-0.0002684203462622467,no trend,0.2959342864202461,-0.0002684203462622467
+en,random,biaffine,31.11655747339094,root_distance,False,decreasing,0.0,0.0,decreasing,0.00014459693505308735,0.0
+en,random,biaffine,31.11655747339094,longest_path,False,decreasing,0.0,-0.00027336663435970077,decreasing,0.0006645881921578667,-0.00027336663435970077
+en,random,biaffine,31.11655747339094,num_crossing,False,decreasing,0.0,0.0,decreasing,0.0003927621638379897,0.0
+en,random,corenlp,30.16842129512313,ndd,False,decreasing,0.0,-3.570781539516473e-06,no trend,0.2852620054925379,-3.570781539516473e-06
+en,random,corenlp,30.16842129512313,mdd,False,decreasing,0.0,-5.9786956298724416e-06,no trend,0.3691553221918551,-5.9786956298724416e-06
+en,random,corenlp,30.16842129512313,height,False,decreasing,0.0,0.0,increasing,1.5520917884259688e-12,0.0
+en,random,corenlp,30.16842129512313,left_child_ratio,False,increasing,7.946643343359483e-11,2.2161647053609536e-07,decreasing,0.0064931315956739954,2.2161647053609536e-07
+en,random,corenlp,30.16842129512313,k_ary,False,decreasing,0.0,0.0,no trend,0.05846322532658865,0.0
+en,random,corenlp,30.16842129512313,num_leaves,False,decreasing,0.0,-0.00012829284981183715,increasing,0.0,-0.00012829284981183715
+en,random,corenlp,30.16842129512313,n_num_crossing,False,decreasing,0.0,0.0,no trend,0.9869876518515293,0.0
+en,random,corenlp,30.16842129512313,degree_var,False,decreasing,0.0,-3.0284634448732544e-06,increasing,2.1191794582264833e-05,-3.0284634448732544e-06
+en,random,corenlp,30.16842129512313,degree_mean,False,decreasing,0.0,-3.4794674883776863e-07,increasing,0.0,-3.4794674883776863e-07
+en,random,corenlp,30.16842129512313,depth_var,False,decreasing,0.0,-1.1040202228124941e-05,increasing,4.629630012686903e-13,-1.1040202228124941e-05
+en,random,corenlp,30.16842129512313,depth_mean,False,decreasing,0.0,-1.1659924003402723e-05,increasing,0.0,-1.1659924003402723e-05
+en,random,corenlp,30.16842129512313,topo_edit_distance,False,decreasing,0.0,-9.257116408238833e-05,decreasing,9.094702768663865e-11,-9.257116408238833e-05
+en,random,corenlp,30.16842129512313,tree_edit_distance,False,decreasing,0.0,-0.0002803476310625175,decreasing,0.0,-0.0002803476310625175
+en,random,corenlp,30.16842129512313,root_distance,False,decreasing,0.0,0.0,decreasing,0.0017827570341348853,0.0
+en,random,corenlp,30.16842129512313,longest_path,False,decreasing,0.0,-0.00024109166305029173,decreasing,0.004917762410919124,-0.00024109166305029173
+en,random,corenlp,30.16842129512313,num_crossing,False,decreasing,0.0,0.0,no trend,0.9311448853592044,0.0
+en,random,stackpointer,30.398083933493375,ndd,False,decreasing,0.0,-3.200412509511771e-06,no trend,0.7223829324284212,-3.200412509511771e-06
+en,random,stackpointer,30.398083933493375,mdd,False,decreasing,0.0,-7.751601031614917e-06,decreasing,4.4340575655610337e-10,-7.751601031614917e-06
+en,random,stackpointer,30.398083933493375,height,False,decreasing,0.0,0.0,increasing,0.0,0.0
+en,random,stackpointer,30.398083933493375,left_child_ratio,False,no trend,0.6252291741284643,0.0,decreasing,2.220446049250313e-16,0.0
+en,random,stackpointer,30.398083933493375,k_ary,False,decreasing,0.0,0.0,decreasing,4.592845881390417e-09,0.0
+en,random,stackpointer,30.398083933493375,num_leaves,False,decreasing,0.0,-0.00012264922322158627,increasing,0.0,-0.00012264922322158627
+en,random,stackpointer,30.398083933493375,n_num_crossing,False,decreasing,0.0,0.0,no trend,0.1991852046866287,0.0
+en,random,stackpointer,30.398083933493375,degree_var,False,decreasing,0.0,-4.317140873617614e-06,decreasing,0.03776352699748653,-4.317140873617614e-06
+en,random,stackpointer,30.398083933493375,degree_mean,False,decreasing,0.0,-3.2760175856624197e-07,increasing,0.0,-3.2760175856624197e-07
+en,random,stackpointer,30.398083933493375,depth_var,False,decreasing,0.0,-6.101499675945999e-06,increasing,0.0,-6.101499675945999e-06
+en,random,stackpointer,30.398083933493375,depth_mean,False,decreasing,0.0,-7.572403346625479e-06,increasing,0.0,-7.572403346625479e-06
+en,random,stackpointer,30.398083933493375,topo_edit_distance,False,decreasing,0.0,-8.300821781356355e-05,increasing,0.0,-8.300821781356355e-05
+en,random,stackpointer,30.398083933493375,tree_edit_distance,False,decreasing,0.0,-0.00026504108136761196,no trend,0.34021563126346743,-0.00026504108136761196
+en,random,stackpointer,30.398083933493375,root_distance,False,decreasing,0.0,0.0,decreasing,2.3040765990689493e-06,0.0
+en,random,stackpointer,30.398083933493375,longest_path,False,decreasing,0.0,-0.00025396825396825396,decreasing,0.000518651096093059,-0.00025396825396825396
+en,random,stackpointer,30.398083933493375,num_crossing,False,decreasing,0.0,0.0,no trend,0.19716387419717774,0.0
+en,random,towerparse,27.997594173285435,ndd,False,decreasing,0.0,-4.235632578879687e-06,no trend,0.38567772751100926,-4.235632578879687e-06
+en,random,towerparse,27.997594173285435,mdd,False,decreasing,0.0,-1.0948883062908508e-05,no trend,0.1816443211204466,-1.0948883062908508e-05
+en,random,towerparse,27.997594173285435,height,False,decreasing,0.0,0.0,increasing,3.8857783657419986e-10,0.0
+en,random,towerparse,27.997594173285435,left_child_ratio,False,increasing,1.2960735773503984e-07,2.953009352771212e-07,no trend,0.5478483614902612,2.953009352771212e-07
+en,random,towerparse,27.997594173285435,k_ary,False,decreasing,0.0,0.0,decreasing,0.0028684599130086585,0.0
+en,random,towerparse,27.997594173285435,num_leaves,False,decreasing,0.0,-0.00016605778811026238,increasing,0.0,-0.00016605778811026238
+en,random,towerparse,27.997594173285435,n_num_crossing,False,decreasing,0.0,0.0,decreasing,5.076535618919742e-05,0.0
+en,random,towerparse,27.997594173285435,degree_var,False,decreasing,0.0,-5.526069381416122e-06,no trend,0.17253856667465506,-5.526069381416122e-06
+en,random,towerparse,27.997594173285435,degree_mean,False,decreasing,0.0,-5.193442759172104e-07,increasing,0.0,-5.193442759172104e-07
+en,random,towerparse,27.997594173285435,depth_var,False,decreasing,0.0,-1.1174250166932381e-05,increasing,1.7250496586740383e-09,-1.1174250166932381e-05
+en,random,towerparse,27.997594173285435,depth_mean,False,decreasing,0.0,-1.3389569525339714e-05,increasing,1.4233059175694507e-13,-1.3389569525339714e-05
+en,random,towerparse,27.997594173285435,topo_edit_distance,False,decreasing,0.0,-0.00011600030933415822,no trend,0.33297423659385705,-0.00011600030933415822
+en,random,towerparse,27.997594173285435,tree_edit_distance,False,decreasing,0.0,-0.0003663898387884709,no trend,0.3747371166695195,-0.0003663898387884709
+en,random,towerparse,27.997594173285435,root_distance,False,decreasing,0.0,0.0,no trend,0.11512726474864055,0.0
+en,random,towerparse,27.997594173285435,longest_path,False,decreasing,0.0,-0.00035109893968120215,decreasing,0.00039421067886369343,-0.00035109893968120215
+en,random,towerparse,27.997594173285435,num_crossing,False,decreasing,0.0,0.0,decreasing,4.606652684802093e-05,0.0
