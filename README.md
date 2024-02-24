@@ -1,3 +1,5 @@
+# syntaxchange
+
 Will be updated to correspond with the latest version of our paper [Syntactic Language Change in English and German: Metrics, Parsers, and Convergences](https://arxiv.org/abs/2402.11549) soon!
 
 > **Abstract**:
@@ -14,7 +16,6 @@ Will be updated to correspond with the latest version of our paper [Syntactic La
 }
 ```
 
-# MA_language_change
 Code and data for my master thesis on the topic of "syntactic language change in German and English" at TU Darmstadt.
 
 The code for data processing and the validation results are located in [code/data_process](code/data_process).
