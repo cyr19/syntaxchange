@@ -1,10 +1,21 @@
 # syntaxchange
 
-Will be updated to correspond with the latest version of our paper [Syntactic Language Change in English and German: Metrics, Parsers, and Convergences](https://arxiv.org/abs/2402.11549) soon!
+This repo contains the code+data for my master thesis on the topic of "syntactic language change in German and English" at TU Darmstadt as well as the resulting paper [Syntactic Language Change in English and German: Metrics, Parsers, and Convergences](https://arxiv.org/abs/2402.11549).
 
 > **Abstract**:
-> Many studies have shown that human languages tend to optimize for lower complexity and increased communication efficiency. Syntactic dependency distance, which measures the linear distance between dependent words, is often considered a key indicator of language processing difficulty and working memory load. The current paper looks at diachronic trends in syntactic language change in both English and German, using corpora of parliamentary debates from the last c. 160 years. We base our observations on five dependency parsers, including the widely used Stanford CoreNLP as well as 4 newer alternatives. Our analysis of syntactic language change goes beyond linear dependency distance and explores 15 metrics relevant to dependency distance minimization (DDM) and/or based on tree graph properties, such as the tree height and degree variance. Even though we have evidence that recent parsers trained on modern treebanks are not heavily affected by data 'noise' such as spelling changes and OCR errors in our historic data, we find that results of syntactic language change are sensitive to the parsers involved, which is a caution against using a single parser for evaluating syntactic language change as done in previous work. We also show that syntactic language change over the time period investigated is largely similar between English and German across the different metrics explored: only 4% of cases we examine yield opposite conclusions regarding upwards and downtrends of syntactic metrics across German and English. We also show that changes in syntactic measures seem to be more frequent at the tails of sentence length distributions. To our best knowledge, ours is the most comprehensive analysis of syntactic language using modern NLP technology in recent corpora of English and German.
+> Syntactic language change has gained increasing attention in recent years. Previous computational work based on dependency relations has focused on diachronic trends in dependency distance, which measures the linear distance between dependent words, using dependency trees automatically predicted by a dependency parser (mostly the Stanford CoreNLP parser). In this work, we introduce a set of 15 syntax metrics that extend the analysis beyond linear distance by incorporating both linear and tree graph properties of dependency trees, such as tree height and degree. Besides, we propose a multi-parser approach to reduce the impact of using specific parsers, thereby increasing the robustness of the detected language changes. Through a cross-lingual investigation of English and German in parliamentary debates for the last 160 years, using 6 different parsers (CoreNLP and 5 newer alternatives), we demonstrate that: (1) Relying on one single parser can be problematic, as the agreement on predicted trends can be low across parsers. (2) Our set of metrics can capture subtle patterns of syntactic changes. Our analysis shows that syntactic change over the time period inspected is largely similar between English and German, with only 2.2% of cases yielding opposite trends in these metrics. (3) We also show that changes in syntactic metrics seem to be more frequent at the tails of sentence length distributions and often move in opposite directions for short and long sentences. To our best knowledge, ours is the most comprehensive computational analysis of syntactic language change using modern NLP technology in recent corpora of English and German.
 
+## Overview
+- [`code/data_process`](code/data_process): Contains code for data processing and validation results.
+
+- [`code/parsers`](code/parsers): Originally contained the parsing code; however, we have moved it to a separate repository, [**LCPar**](https://github.com/cyr19/LCPar), for linguists who may want to use the parsers for their own research.
+
+- [`code/analysis`](code/analysis): Includes code for analyzing language changes, such as calculating syntax metrics.
+
+- [`data/`](data/): Contains sampled sentences from the original political corpora, parsing results, and other related files. 
+
+## Citation
+If you use code/data in this repo, please cite us!
 ```
 @misc{chen2024syntactic,
       title={Syntactic Language Change in English and German: Metrics, Parsers, and Convergences}, 
@@ -16,12 +27,3 @@ Will be updated to correspond with the latest version of our paper [Syntactic La
 }
 ```
 
-Code and data for my master thesis on the topic of "syntactic language change in German and English" at TU Darmstadt.
-
-The code for data processing and the validation results are located in [code/data_process](code/data_process).
-
-The code for parsing is located in [code/parsers](code/parsers).
-
-The code and results for analyzing language change are located in [code/analysis](code/analysis).
-
-Needs to be cleaned.

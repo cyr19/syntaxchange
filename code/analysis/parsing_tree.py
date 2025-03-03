@@ -69,7 +69,11 @@ class Tree:
         self.sum_dd = sum([abs(a-b) for a, b, c in self.edges if a != 0 and c != 'punct'])
 
     def get_mdd(self):
-        return self.sum_dd / (self.num_nodes_wo_punct - 1)
+        try:
+            return self.sum_dd / (self.num_nodes_wo_punct - 1)
+        except:
+            print(self.data)
+            raise ValueError
 
     def get_ndd(self):
         return abs(np.log(self.get_mdd() / math.sqrt(self.root * self.num_nodes_wo_punct)))
@@ -85,6 +89,13 @@ class Tree:
                     left = [c for c in children if c < node.id]
                     ratios.append(len(left) / len(children))
         return np.mean(ratios)
+
+    def get_dependency_direction_ratio(self):
+        ratios = []
+        left_children = []
+        for node in self.nodes:
+            if node.id not in self.punct:
+                children
 
     def get_k_ary(self):
         # maximal number of children

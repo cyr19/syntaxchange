@@ -8,80 +8,128 @@ import json
 import numpy as np
 from collections import defaultdict
 import os
+import pymannkendall as mk
 
-parser = ArgumentParser()
-parser.add_argument("--parsers", '-p', type=str, default=None)
-parser.add_argument("--data", '-d', type=str)
-#parser.add_argument("--balanced", action='store_true')
-#parser.add_argument("--same_pos", action='store_true')
-parser.add_argument("--sanity_check", action='store_true')
-parser.add_argument("--example", action='store_true')
-parser.add_argument("--chatgpt", action='store_true')
-parser.add_argument("--corr", action='store_true')
+def measure(sents, ori_data):
+    #with open(path, 'r') as f:
+    #    sents = f.read(f).strip().split("\n\n")
+    print(f'===={len(sents)} sents are being measured...====')
+    results = defaultdict(list)
+    #for sent in sents:
+    skipped = []
+    #for i, sent in tqdm(enumerate(sents), total=len(sents), desc=f"{parser}-{decade}"):
+    for i, sent in tqdm(enumerate(sents), total=len(sents)):
+        if len(ori_data)>0:
+            info = ori_data.iloc[i]
+        tree = Tree(sent.strip())
+        built = tree.build_tree()
 
-args = parser.parse_args()
-parsers = args.parsers.split(',') if args.parsers is not None else ['stanza', 'corenlp', 'stackpointer', 'biaffine', 'towerparse']
+        if built:
+            if len(ori_data)>0:
+                results['id'].append(f"{decade}-{info['index']}")
+                assert len(tree.nodes) == info.len, print(f"\n{sent}\n\n{info.sent}")
+                results['date'].append(info.date)
+                results['len'].append(info.len)
+            
+            results['MDD'].append(float(tree.get_mdd()))
+            results['NDD'].append(float(tree.get_ndd()))
 
-if args.example:
-    file = "/home/ychen/projects/syntactic_change/data/ud_treebanks/ud-treebanks-v2.12/UD_German-GSD/de_gsd-ud-train.conllu"
-    with open(file, 'r') as f:
-        sents = f.read().strip().split("\n\n")
-    for sent in sents:
-        if len(sent.split('\n')) <= 10:
-            tree = Tree(sent.strip())
-            built = tree.build_tree()
-            if built:
-                if len(tree.get_crossing_edges()) > 0:
-                    #print(info['sent'])
-                    #print(info['date'])
-                    print(" ".join([n.text for n in tree.nodes]))
-                    print(tree.get_mdd())
-                    print(tree.get_ndd())
-                    print(tree.root)
-                    print(tree.get_tree_height_2())
-                    print(tree.get_left_child_ratio())
-                    print(tree.get_k_ary())
-                    #print(tree.get_nnum_crossing_edges())
-                    print(tree.get_num_crossing_edges())
-                    print(tree.get_num_leaves())
-                    print(tree.topology_sort())
-                    print(tree.get_topo_distance())
+            results['Height'].append(float(tree.get_tree_height_2()))
+            results["Ratio$_{head-final}$"].append(float(tree.get_left_child_ratio()))
+            results['treeDegree'].append(int(tree.get_k_ary()))
+            results['#Leaves'].append(int(tree.get_num_leaves()))
 
-                    print(tree.tree_edit_distance())
-                    print(tree.random_tree)
-                    print(tree.get_longest_path())
-                    print(tree.get_degrees())
-                    print(tree.get_degree_variance())
-                    print(tree.depths)
-                    print(tree.get_depth_variance())
-                    raise ValueError
-    raise ValueError
+            var, mean = tree.get_degree_variance()
+            results['degreeVar'].append(float(var))
+            results['degreeMean'].append(float(mean))
 
-elif not args.chatgpt and not args.corr:
-    with open(f"../../data/{args.data}_final/stanza_tokenized_v4/all_ids.json", 'r') as f:
-        valid_ids = json.load(f)
+            var, mean = tree.get_depth_variance()
+            results['depthVar'].append(float(var))
+            results['depthMean'].append(float(mean))
 
-    all_discarded = 0
+            results["d$_{head-final}$"].append(int(tree.get_topo_distance()))
+            #results['id_topo'][parser].append(f"{decade}-{info['index']}")
 
-    results = defaultdict(lambda : defaultdict(list))
+            results['#Crossings'].append(int(tree.get_num_crossing_edges()))
+            results["Height$_{dependency}$"].append(int(tree.get_longest_path()))
+            results["d$_{root}$"].append(int(tree.root))
 
-    for parser in parsers:
-        #print()
-        #print(parser)
-        files = glob(f"../../data/{args.data}_final/parsed_v4/{args.data}_parsed_v4/{parser}/*.conllu")
+            #if info['len'] < 80:
+            #results['id_tree'][parser].append(f"{decade}-{info['index']}")
+            results["d$_{randomTree}$"].append(tree.tree_edit_distance())
+        else:
+            #print(f'Sent {i} is not a tree.')
+            #skipped += 1
+            skipped.append(i)
+
+    print(f"{len(skipped)} sents are not a tree.")
+    results = pd.DataFrame(results)
+    # skipped related things were added for corr_check so the  results for analysis sdon't have this output
+    return results, skipped
+
+def mannkendall(df):
+    def find_len_group(length, lengths):
+        for i in range(len(lengths)):
+            if i == len(lengths) - 1 and length >= lengths[-1]:
+                return lengths[-1]
+            if lengths[i] <= length < lengths[i + 1]:
+                return lengths[i]
+        return None
+    lengths = [5, 10, 15, 20, 30, 40, 50, 60, 70]
+    metrics = df.columns[3:]
+    df['len_group'] = [find_len_group(l, lengths) for l in df['len']]
+    df = df.groupby('len_group')
+    results = defaultdict(list)
+    for length, group in df:
+        for metric in metrics:
+            ori_test = mk.original_test(list(group[metric]))#[0]
+            #results['parser'].append()
+            results['len_group'].append(length)
+            results['metric'].append(metric)
+            results['MannKendall'].append(ori_test[0])
+            results['p'].append(ori_test[2])
+            results['slope'].append(ori_test[-2])
+    return results
+    
+        
+
+if __name__ == '__main__':
+    from glob import glob
+    
+    ap = ArgumentParser()
+    ap.add_argument('-d', '--data', type=str)
+    args = ap.parse_args()
+    data = args.data
+    #for data in ['deuparl', 'hansard']:
+    #for parser in ['towerparse', 'corenlp', 'stanza', 'biaffine', 'stackpointer', 'crf2o_de_merged_proj', 'crf2o_en_merged_proj']:
+    for parser in ['biaffine_de_merged_biaffine_lstm']:
+        #if data == 'deuparl':
+        #    continue
+        #if data == 'deuparl' and parser != 'crf2o_de_merged_proj':
+        #    continue
+        #if data == 'hansard' and parser != 'crf2o_en_merged_proj':
+        #    continue
+        data_dir = f'../../data/{data}_final/parsed_v4_balanced_450_3/{parser}/'
+        files = glob(data_dir + '*.conllu')
+        #print(files)
+        results = []
+
+        id_json = f"../../data/{data}_final/stanza_tokenized_v4/balanced_450_3.json"
+        with open(id_json, 'r') as f:
+            ids = json.load(f)['data']
+
         for file in sorted(files):
+            print(file)
             decade = int(file.split('/')[-1][:4])
-            #if decade < 1920:
-            #    continue
-            ori_path = glob(f"../../data/{args.data}_final/stanza_tokenized_v4/{decade}*.csv")[0]
+            ori_path = glob(f"../../data/{data}_final/stanza_tokenized_v4/{decade}*.csv")[0]
             ori_data = pd.read_csv(ori_path, sep='\t')
-            #print(decade)
 
             with open(file, 'r') as f:
                 sents = f.read().strip().split("\n\n")
+            
+            decade_ids = [int(i.split('-')[-1]) for i in ids if i.split('-')[0]==str(decade)]
 
-            #print(ori_data)
-            if len(ori_data) != len(sents):
+            if len(decade_ids) != len(sents):
                 try:
                     with open(file.replace(".conllu", '_discarded.json'), 'r') as f:
                         discarded = json.load(f)
@@ -89,281 +137,31 @@ elif not args.chatgpt and not args.corr:
                     discarded = [int(d) for d in discarded]
                 except:
                     discarded = []
-
-               # print(discarded)
                 try:
-                    assert len(discarded) + len(sents) == len(ori_data), f"{decade}: {len(ori_data)} - {len(sents)} - {len(discarded)}"
+                    assert len(discarded) + len(sents) == len(decade_ids), f"{decade}: {len(decade_ids)} - {len(sents)} - {len(discarded)}"
                     # re-index and remove the discarded sents
-                    ori_data = ori_data.drop(index=discarded)
-                    assert len(ori_data) == len(sents)
+                    decade_ids = [i for i in decade_ids if i not in discarded]
+                    
+                    assert len(decade_ids) == len(sents)
                 except:
-                    print(f"{decade}: {len(ori_data)} - {len(sents)} - {len(discarded)}")
-                    pass
+                    print(f"{decade}: {len(decade_ids)} - {len(sents)} - {len(discarded)} - {len(ori_data)}")
+                    raise ValueError('Indices not aligned.')
+            
+            ori_data = ori_data.iloc[decade_ids]
+            assert len(sents) == len(ori_data)
 
-            valid = valid_ids[str(decade)]
-            #print(len(valid))
-            for i, sent in tqdm(enumerate(sents), total=len(sents), desc=f"{parser}-{decade}-{len(valid)}"):
-                #if len(results['id'][parser]) > 3:
-                #    break
-                info = ori_data.iloc[i]
-                if info['index'] not in valid:
-                    continue
-
-                tree = Tree(sent.strip())
-                built = tree.build_tree()
-                if built:
-
-                    '''
-                    results['id'][parser].append(f"{decade}-{info['index']}")
-                    #results['decade'][parser].append(decade)
-                    results['date'][parser].append(info.date)
-                    results['len_wo_punct'][parser].append(int(info.len_wo_punct))
-                    results['len'][parser].append(int(info.len))
-                    
-                    results['mdd'][parser].append(float(tree.get_mdd()))
-                    results['ndd'][parser].append(float(tree.get_ndd()))
-                    
-                    results['height'][parser].append(float(tree.get_tree_height_2()))
-                    results['left_child_ratio'][parser].append(float(tree.get_left_child_ratio()))
-                    results['k_ary'][parser].append(int(tree.get_k_ary()))
-                    results['num_leaves'][parser].append(int(tree.get_num_leaves()))
-                    #results['topo_steps'].append(tree.get_sort_steps())
-                    results['n_num_crossing'][parser].append(float(tree.get_nnum_crossing_edges()))
-                    #results['num_crossing'][parser].append(float(np.mean(tree.get_crossing_edges())))
-                    
-                    var, mean = tree.get_degree_variance()
-                    results['degree_var'][parser].append(float(var))
-                    results['degree_mean'][parser].append(float(mean))
-    
-                    var, mean = tree.get_depth_variance()
-                    results['depth_var'][parser].append(float(var))
-                    results['depth_mean'][parser].append(float(mean))
-    
-    
-    
-                    # results['decade'][parser].append(decade)
-                    #try:
-                    results['topo_edit_distance'][parser].append(int(tree.get_topo_distance()))
-                    results['id_topo'][parser].append(f"{decade}-{info['index']}")
-                    
-                    results['num_crossing'][parser].append(int(tree.get_num_crossing_edges()))
-                    results['longest_path'][parser].append(int(tree.get_longest_path()))
-                    #results['tree_edit_distance'][parser].append(tree.tree_edit_distance())
-                    results['root_distance'][parser].append(int(tree.root))
-                    
-                    
-                    if info['len'] < 80:
-                        results['id_tree'][parser].append(f"{decade}-{info['index']}")
-                        results['tree_edit_distance'][parser].append(tree.tree_edit_distance())
-                    
-                    results['mdd'][parser].append(float(tree.get_mdd()))
-                    results['ndd'][parser].append(float(tree.get_ndd()))
-                    '''
-                    results['len_true'][parser].append(len(tree.nodes))
-
-        for k, v in results.items():
-            path = f'measured/{args.data}/{k}.json'
-            if os.path.exists(path):
-                with open(path, 'r') as f:
-                    stored = json.load(f)
-                stored.update(v)
-            else:
-                stored = v
-            with open(path, 'w') as f:
-                json.dump(stored, f, indent=4)
-
-elif args.chatgpt:
-
-    for parser in parsers:
-        results = defaultdict(lambda: defaultdict(list))
-        files = glob(f'../../data/{args.data}_final/parsed_v4/chatgpt/*_sent_{parser}.conllu')
-
-        for file in sorted(files):
-            decade = int(file.split('/')[-1][:4])
-
-            tmp = decade if decade < 2020 else 2000
-            decade_group = tmp if tmp % 20 == 0 else tmp - 10
-
-            with open(file, 'r') as f:
-                sents = f.read().strip().split("\n\n")
-
-            for i, sent in tqdm(enumerate(sents), total=len(sents), desc=f"{parser}-{decade}"):
-                tree = Tree(sent.strip())
-                built = tree.build_tree()
-                if built:
-                    results[parser]['decade'].append(decade)
-                    results[parser]['decade_group'].append(decade_group)
-                    results[parser]['len'].append(int(len(tree.nodes)))
-                    results[parser]['mdd'].append(float(tree.get_mdd()))
-                    results[parser]['ndd'].append(float(tree.get_ndd()))
-
-                    results[parser]['height'].append(float(tree.get_tree_height_2()))
-                    results[parser]['left_child_ratio'].append(float(tree.get_left_child_ratio()))
-                    results[parser]['k_ary'].append(int(tree.get_k_ary()))
-                    results[parser]['num_leaves'].append(int(tree.get_num_leaves()))
-                    results[parser]['n_num_crossing'].append(float(tree.get_nnum_crossing_edges()))
-
-                    var, mean = tree.get_degree_variance()
-                    results[parser]['degree_var'].append(float(var))
-                    results[parser]['degree_mean'].append(float(mean))
-
-                    var, mean = tree.get_depth_variance()
-                    results[parser]['depth_var'].append(float(var))
-                    results[parser]['depth_mean'].append(float(mean))
-
-                    results[parser]['topo_edit_distance'].append(int(tree.get_topo_distance()))
-
-                    results[parser]['num_crossing'].append(int(tree.get_num_crossing_edges()))
-                    results[parser]['longest_path'].append(int(tree.get_longest_path()))
-                    results[parser]['root_distance'].append(int(tree.root))
-
-                    if int(len(tree.nodes)) < 80:
-                        results[parser]['tree_edit_distance'].append(tree.tree_edit_distance())
-                    else:
-                        results[parser]['tree_edit_distance'].append(None)
-
-        tmp = pd.DataFrame(results[parser])
-        tmp.to_csv(f"tables/chatgpt/{args.data}_{parser}.csv", index=False)
-
-elif args.corr:
-
-    results = defaultdict(lambda: defaultdict(list))
-    for parser in parsers:
-
-        # /home/ychen/projects/syntactic_change/code/parsers/parsing_outputs/gpt-3.5-turbo-0613_correction_3_edit_chatgpt_correction_biaffine.conllu
-        # original
-        files = glob(f'../parsers/parsing_outputs/gpt-3.5-turbo-0613_correction_*_edit_text_{parser}.conllu')
-        #print(files)
-        ori_sents = []
-        for file in files:
-            with open(file, 'r') as f:
-                ori_sents += f.read().strip().split("\n\n")
-
-        files = glob(f'../parsers/parsing_outputs/gpt-3.5-turbo-0613_correction_*_edit_correction_{parser}.conllu')
-        #print(files)
-        cor_sents = []
-        for file in files:
-            with open(file, 'r') as f:
-                cor_sents += f.read().strip().split("\n\n")
-
-        files = glob(f'../parsers/parsing_outputs/gpt-3.5-turbo-0613_correction_*_edit_chatgpt_correction_{parser}.conllu')
-        #print(files)
-        chatcor_sents = []
-        for file in files:
-            with open(file, 'r') as f:
-                chatcor_sents += f.read().strip().split("\n\n")
-
-        assert len(ori_sents) == len(chatcor_sents) == len(cor_sents)
-
-        for i, sents in enumerate([ori_sents, cor_sents, chatcor_sents]):
-            for j, sent in tqdm(enumerate(sents), total=len(sents)):
-                tree = Tree(sent.strip())
-                built = tree.build_tree()
-                results[parser]['text_group'].append(i)
-                results[parser]['tid'].append(j)
-                if built:
-                    #results[parser]['len'].append(int(len(tree.nodes)))
-                    results[parser]['mdd'].append(float(tree.get_mdd()))
-                    results[parser]['ndd'].append(float(tree.get_ndd()))
-
-                    results[parser]['height'].append(float(tree.get_tree_height_2()))
-                    results[parser]['left_child_ratio'].append(float(tree.get_left_child_ratio()))
-                    results[parser]['k_ary'].append(int(tree.get_k_ary()))
-                    results[parser]['num_leaves'].append(int(tree.get_num_leaves()))
-                    #results[parser]['n_num_crossing'].append(float(tree.get_nnum_crossing_edges()))
-
-                    var, mean = tree.get_degree_variance()
-                    results[parser]['degree_var'].append(float(var))
-                    results[parser]['degree_mean'].append(float(mean))
-
-                    var, mean = tree.get_depth_variance()
-                    results[parser]['depth_var'].append(float(var))
-                    results[parser]['depth_mean'].append(float(mean))
-
-                    results[parser]['topo_edit_distance'].append(int(tree.get_topo_distance()))
-
-                    results[parser]['num_crossing'].append(int(tree.get_num_crossing_edges()))
-                    results[parser]['longest_path'].append(int(tree.get_longest_path()))
-                    results[parser]['root_distance'].append(int(tree.root))
-                    results[parser]['tree_edit_distance'].append(tree.tree_edit_distance())
-                else:
-                    #results[parser]['text_group'].append(i)
-                    # results[parser]['len'].append(int(len(tree.nodes)))
-                    results[parser]['mdd'].append(None)
-                    results[parser]['ndd'].append(None)
-
-                    results[parser]['height'].append(None)
-                    results[parser]['left_child_ratio'].append(None)
-                    results[parser]['k_ary'].append(None)
-                    results[parser]['num_leaves'].append(None)
-                    # results[parser]['n_num_crossing'].append(float(tree.get_nnum_crossing_edges()))
-
-                    #var, mean = tree.get_degree_variance()
-                    results[parser]['degree_var'].append(None)
-                    results[parser]['degree_mean'].append(None)
-
-                    #var, mean = tree.get_depth_variance()
-                    results[parser]['depth_var'].append(None)
-                    results[parser]['depth_mean'].append(None)
-
-                    results[parser]['topo_edit_distance'].append(None)
-
-                    results[parser]['num_crossing'].append(None)
-                    results[parser]['longest_path'].append(None)
-                    results[parser]['root_distance'].append(None)
-                    results[parser]['tree_edit_distance'].append(None)
+            #decade_results = measure(sents[:10], ori_data[:10])
+            decade_results, _ = measure(sents, ori_data)
+            results.append(decade_results)
             #break
-    with open('tables/correction_correlation_measured.json', 'w') as f:
-        json.dump(results, f, indent=4)
+        results = pd.concat(results, ignore_index=True)
+        results['date'] = pd.to_datetime(results['date'])
+        results.sort_values('date', ascending=True, inplace=True)
+        
 
-    with open('tables/correction_correlation_measured.json', 'r') as f:
-        results = json.load(f)
-    from scipy.stats import pearsonr, spearmanr
-    correlations = defaultdict(list)
-    for parser in parsers:
-        print(parser)
-        tmp = pd.DataFrame(results[parser])
-        tmp.to_csv(f"tables/{parser}.csv", index=False)
-        #tmp.dropna()
-        #for i in range(3):
-        print(len(tmp))
-        print(tmp)
-        tmp.fillna(-1, inplace=True)
-        #print(tmp.columns.values[0])
-        #ori_measures = tmp[tmp[tmp.columns.values[0]]==0]
-        ori_measures = tmp[tmp.text_group==0]
-        cor_measures = tmp[tmp.text_group==1]
-        chatcor_measures = tmp[tmp.text_group==2]
+        results.to_csv(data_dir + 'measured.csv', index=False)
+        print(len(results))
 
-        assert len(ori_measures) == len(cor_measures) == len(chatcor_measures)
-        correlations['parser'].append(parser)
-        correlations['vs.'].append('ori vs. human corrected')
-        # ori vs. human corr
-        for measure in tmp.columns[2:]:
-            #print(measure)
-            #pc = pearsonr(ori_measures[measure], cor_measures[measure])[0]
-            sc = spearmanr(ori_measures[measure], cor_measures[measure])[0]
-            correlations[measure].append(sc)
-
-        correlations['parser'].append(parser)
-        correlations['vs.'].append('ori vs. chatgpt_corrected')
-        # ori vs. chatgpt corr
-        for measure in tmp.columns[2:]:
-            # print(measure)
-            # pc = pearsonr(ori_measures[measure], cor_measures[measure])[0]
-            sc = spearmanr(ori_measures[measure], chatcor_measures[measure])[0]
-            correlations[measure].append(sc)
-
-        # human corr
-        correlations['parser'].append(parser)
-        correlations['vs.'].append('human_corrected vs. chatgpt_corrected')
-        # ori vs. human corr
-        for measure in tmp.columns[2:]:
-            # print(measure)
-            # pc = pearsonr(ori_measures[measure], cor_measures[measure])[0]
-            sc = spearmanr(cor_measures[measure], chatcor_measures[measure])[0]
-            correlations[measure].append(sc)
-
-    correlations = pd.DataFrame(correlations)
-    correlations.to_csv("tables/correction_correlations.csv", index=False)
-
+        trends = pd.DataFrame(mannkendall(results))
+        assert len(trends) == 135, print(len(trends))
+        trends.to_csv(data_dir + 'trends.csv', index=False)
